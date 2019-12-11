@@ -4,19 +4,17 @@ var data = {
         logo: 'logo.png',
         // 标题
         title: {
-            text_1: 'lnsights Online',
+            text_1: 'Insights Online',
             text_2: 'Blockchain Summit',
-            text_3: 'Hosted by Wanchain and FinNexus'
         },
         logo2: 'logo2.png',
-        speaker: 'Speaker',
-        audience: 'Audience',
+        speaker: 'Register to Present',
+        audience: 'Watch Presentations',
     },
 
     // 个人简介
     personal: {
         title: '20 + Featured Speakers',
-        Subheading: 'Hosted by Wanchain and FinNexus',
         list: [
             [{
                     title: 'Michael Arrington',
@@ -91,10 +89,9 @@ var data = {
     // 会议
     agenda: {
         title: 'Agenda',
-        Subheading: 'Hosted by Wanchain and FinNexus',
         thead: {
             time: 'Time',
-            name: 'Name & Titile',
+            name: 'Person',
             theme: 'Theme'
         },
         table: [{
@@ -171,12 +168,11 @@ var data = {
     // 底部
     participate: {
         title: 'Why participate',
-        Subheading: 'Hosted by Wanchain and FinNexus',
         img: 'music.png',
         briefIntroduction: {
-            text_1: 'Insights is a two day all free, all online summit for blockchaionline summit for blockchai',
-            text_2: 'For presenters: It is an opportunity to gain exposure for themsportunity to gaihemosure for th',
-            text_3: 'For presenters: It is an opportunity to gain exposure for themsportunity to gain expemosure for th',
+            text_1: 'Insights is a two day, all free, all online summit for blockchain enthusiasts and entrepreneurs',
+            text_2: 'For presenters: It is an opportunity to gain exposure for themselves and their projects to a wide range of audiences from different communities.',
+            text_3: 'For the audience: It is an opportunity to learn about a wide range of topics from blockchain industry insiders and experts',
         },
         presentation: {
             title: 'Presentation Categories:',

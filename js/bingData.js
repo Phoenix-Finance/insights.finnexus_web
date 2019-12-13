@@ -60,7 +60,8 @@ $(function () {
 
     var linkHtml = [];
     data.company.forEach(function(item) {
-        linkHtml.push('<a href="#"><img src="./project/'+ item +'" alt=""></a>');
+        console.log(item[1])
+        linkHtml.push('<a target="_blank" href="' +item[1] + '"><img src="./project/'+ item[0] +'" alt=""></a>');
     });
     $('.link-icon').append(linkHtml.join(''));
 
@@ -69,27 +70,31 @@ $(function () {
     $('.participate-link-title p:first span').text(data.participate.title);
     $('.participate-link-title p:last').text(data.participate.Subheading);
     $('.participate-centext-middel p').eq(0).text(data.participate.briefIntroduction.text_1);
-    $('.participate-centext-middel p').eq(1).text(data.participate.briefIntroduction.text_2);
-    $('.participate-centext-middel p').eq(2).text(data.participate.briefIntroduction.text_3);
+    $('.participate-centext-middel p').eq(1).html(data.participate.briefIntroduction.text_2);
+    $('.participate-centext-middel p').eq(2).html(data.participate.briefIntroduction.text_3);
     $('.participate-link-group p').text(data.participate.presentation.title);
 
     var participateHtml = [];
     data.participate.presentation.links.forEach(function(item) {
-        participateHtml.push('<a href="#">'+ item +'</a>');
+        participateHtml.push('<a >'+ item +'</a>');
     });
     $('.participate-link-group-box').append(participateHtml.join(''));
 
-
- 
-
-
-
-
-
-
-
+    var btnElement = document.getElementsByTagName('button')[0];//第一个button元素
+    btnElement.addEventListener('click',b);
+    function b(){
+        var h1 = "https://docs.google.com/forms/d/1utKnMJ636uqPm1UaJxbuBs0FHLz1BPuxkYI4CFOFQvg/edit#response=ACYDBNhEom4NNG2wrH-TuuW1-kX3NjeByOjB_YYY7rKYnZDg_X4gdq8vLjcUuAvzEjtXx5Q";
+        window.open(h1,'_blank');
+        // window.location.href = "";//跳转
+    }
 
 
+    var btnElement2 = document.getElementsByTagName('button')[1];//第一个button元素
+    btnElement2.addEventListener('click',b2);
+    function b2(){
+        var h2 = "https://mailchi.mp/e135a0f4e0d6/insights_summit";
+        window.open(h2,'_blank');
+    }
 
 
 

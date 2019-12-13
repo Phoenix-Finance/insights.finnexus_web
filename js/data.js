@@ -95,6 +95,7 @@ var data = {
             theme: 'Theme'
         },
         table: [{
+                herf: '',
                 hour: '7:45 AM',
                 specificDate: '06/09/2019',
                 name: 'Laura Walter',
@@ -155,14 +156,15 @@ var data = {
 
     // 公司logo 图片
     company: [
-        '0xcert.png',
-        'bandprotocol.png',
-        'chainlayer.png',
-        'loom.png',
-        'marlin.png',
-        'mousebelt.png',
-        'rivex.png',
-        'stasis.png',
+        ['0xcert.png', 'https://0xcert.org/'],
+        ['bandprotocol.png', 'https://bandprotocol.com/'],
+        ['chainlayer.png','https://www.chainlayer.io/'],
+        ['loom.png','https://loomx.io/'],
+        ['marlin.png','https://www.marlin.pro/'],
+        ['mousebelt.png','https://www.mousebelt.com/'],
+        ['rivex.png','https://www.rivex.io/'],
+        ['stasis.png','https://stasis.net/'],
+        ['web3.png','https://web3.foundation/'],
     ],
 
     // 底部
@@ -171,8 +173,8 @@ var data = {
         img: 'music.png',
         briefIntroduction: {
             text_1: 'Insights is a two day, all free, all online summit for blockchain enthusiasts and entrepreneurs',
-            text_2: 'For presenters: It is an opportunity to gain exposure for themselves and their projects to a wide range of audiences from different communities.',
-            text_3: 'For the audience: It is an opportunity to learn about a wide range of topics from blockchain industry insiders and experts',
+            text_2: '<span style="font-weight: 900;">For presenters:</span> It is an opportunity to gain exposure for themselves and their projects to a wide range of audiences from different communities.',
+            text_3: '<span style="font-weight: 900;">For the audience:</span> It is an opportunity to learn about a wide range of topics from blockchain industry insiders and experts',
         },
         presentation: {
             title: 'Presentation Categories:',

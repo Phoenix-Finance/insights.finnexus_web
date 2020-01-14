@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="FinNexus,Defi,Open Finance, FNX" />
+    <meta name="viewport"
+        content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
     <title>Insights Finnexus</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/fonts/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/phone.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen and (min-width: 751px) and (max-width: 1700px)">
+    <link rel="stylesheet" type="text/css" href="./css/pc.css" media="screen and (min-width: 1701px)">
+    <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.css">  
+
     <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
     <script src="./js/data.js"></script>
 </head>
 
@@ -19,22 +26,22 @@
         <div class="banner">
             <div class="banner-box">
                 <div class="logo">
-                    <img src="./img/logo.png" alt="">
+                     <a href="https://www.finnexus.io/" target="_blank"><img src="./img/logo.png" alt=""></a>
                 </div>
                 <div class="banner-title">
                     <h3></h3>
                     <h3></h3>
-                    <img src="" alt="">
-                    <p></p>
+                    <img class="logo2" src="" alt="">
+                    <p>(Presentations go live on February 15th, click the "Sign-up" button for first acccess)</p>
                     <div class="btn-group">
-                        <button ><b></b><span>Register to Present</span></button>
-                        <button><b></b><span>Watch Presentations</span></button>
+                        <button><b></b><span>Register to Present</span></button>
+                        <button><b></b><span>Sign-up to Watch</span></button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Personal profile -->
-        <!-- <div class="personal-profile">
+        <div class="personal-profile">
             <div class="personal-profile-box">
                 <div class="personal-profile-title">
                     <p>
@@ -43,7 +50,16 @@
                     <p><span>Hosted by Wanchain and FinNexus</span></p>
                 </div>
             </div>
-        </div> -->
+        </div>
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+
+
         <!-- agenda -->
         <!-- <div class="agenda">
             <div class="agenda-box">
@@ -111,18 +127,26 @@
         <section class="footer" style="border-bottom: 0;">
             <div class="aa7ec1 wrapper" data-class-name="aa7ec1">
                 <ul class="left">
-                    <li><a href="https://www.linkedin.com/company/finnexus/" target="_blank" rel="noopener noreferrer"><i class="iconfont icon-in"></i></a></li>
-                    <li><a href="https://twitter.com/fin_nexus/" target="_blank" rel="noopener noreferrer"><i class="iconfont icon-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/FinNexus/" target="_blank" rel="noopener noreferrer"><i class="iconfont icon-facebook"></i></a></li>
-                    <li><a href="https://medium.com/finnexus/" target="_blank" rel="noopener noreferrer"><i class="iconfont icon-medium"></i></a></li>
+                    <li><a href="https://t.me/FinNexusOfficial" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-telegram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/finnexus/" target="_blank"
+                            rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/fin_nexus/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/FinNexus/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://medium.com/finnexus/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa fa-medium"></i></a></li>
                     <li>
                         <a class="wechat-wrap" href="javascript:;" rel="noopener noreferrer">
-                            <i class="iconfont icon-weixin"></i>
+                            <i class="fa fa-weixin"></i>
                             <div class="wechat-pop"></div>
                         </a>
                     </li>
                 </ul>
-                <div class="right subscribe"><a href="https://mailchi.mp/e135a0f4e0d6/insights_summit" target="_blank" disabled><input type="text" placeholder="Please enter the email address"><button>Subscribe</button></a></div>
+                <div class="right subscribe"><a href="https://mailchi.mp/e135a0f4e0d6/insights_summit" target="_blank"
+                        disabled><input type="text"
+                            placeholder="Please enter the email address"><button>Subscribe</button></a></div>
             </div>
         </section>
     </div>

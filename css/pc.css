@@ -184,8 +184,8 @@ table {
 
 .banner-title p {
     margin: 20px 0;
-    /* font-size: 28px;
-    line-height: 1.2; */
+    margin-bottom: 0;
+    font-style: italic;
 }
 
 .btn-group button {
@@ -247,7 +247,7 @@ table {
 }
 
 .personal-profile {
-    height: 1000px;
+    height: 800px;
     background: #120f2e;
 }
 
@@ -354,6 +354,8 @@ table {
     border-bottom: #2a2843 1px solid;
     padding-bottom: 10px;
     margin-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .personal-profile-centext dl {
@@ -414,6 +416,7 @@ table {
     color: #86868e;
     margin-top: 7px;
     width:195px;
+    font-style: italic;
 }
 
 .agenda {

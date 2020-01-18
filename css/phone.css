@@ -196,6 +196,7 @@ html {
     margin: 20px;
     font-size: 16px;
     line-height: 1.5;
+    font-style: italic;
 }
 
 .btn-group button {
@@ -378,7 +379,8 @@ html {
     border-bottom: #2a2843 1px solid;
     padding-bottom: 10px;
     margin-bottom: 13px;
-    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .personal-profile-centext dl {
@@ -438,6 +440,7 @@ html {
     font-size: 14px;
     color: #86868e;
     margin-top: 7px;
+    font-style: italic;
 }
 
 .agenda {

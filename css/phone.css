@@ -386,7 +386,7 @@ html {
 .personal-profile-centext dl {
     width: 30%;
     float: left;
-    margin-right: 4%;
+    margin-right: 16px;
 }
 
 .personal-profile-centext dl:last-child {

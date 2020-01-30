@@ -22,7 +22,7 @@ var data = {
                     img: '../presenter/AlexPreukschat.png',
                     arrington: '"Lessons in personal development from Blockchain"',
                     capital: 'capital',
-                    vimeo: 'https://player.vimeo.com/video/381097950',
+                    vimeo: '',
                 },
                 {
                     title: 'Rossco Paddison',
@@ -30,7 +30,7 @@ var data = {
                     img: '../presenter/RosscoPaddison.png',
                     arrington: '"What will it take for Defi to replace legacy financial systems?"',
                     capital: 'capital',
-                    vimeo: 'https://player.vimeo.com/video/381098037',
+                    vimeo: '',
                 },
                 {
                     title: 'Galen Danziger',
@@ -38,7 +38,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/Galen.png',
                     arrington: '"Why the crypto VC model is broken"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 }
             ],
             [{
@@ -47,7 +47,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/PetervanMourik.png',
                     arrington: '"How validators are changing blockchain ecosystems"',
-                    vimeo: 'https://player.vimeo.com/video/381097950',
+                    vimeo: '',
                 },
                 {
                     title: 'Siddharth verma',
@@ -55,7 +55,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/Siddharthverma.png',
                     arrington: '"Bringing de-fi to masses and future of neo-banking"',
-                    vimeo: 'https://player.vimeo.com/video/381098037',
+                    vimeo: '',
                 },
                 {
                     title: 'Bill Laboon',
@@ -63,7 +63,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/BillLaboon.png',
                     arrington: '"An introduction to Polkadot"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 }
             ],
             [{		
@@ -72,7 +72,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/bruceli.png',
                     arrington: '"Communication as a service powered by blockchain"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 },
                 {
                     title: 'Justin Cai',
@@ -80,7 +80,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/JustinCai.png',
                     arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 },
                 {		
                     title: 'Boyd Cohen',
@@ -88,7 +88,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/BoydCohen.png',
                     arrington: '"From native token to enterprise sales to the decentralisation of the global mobility ecosystem"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 }
             ],
             [{
@@ -97,7 +97,7 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/DanLiebau.png',
                     arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 },
                 {
                     title: 'Soravis Srinawakoon',
@@ -105,16 +105,17 @@ var data = {
                     capital: 'capital',
                     img: '../presenter/SoravisSrinawakoon.png',
                     arrington: '"An in depth conversation about blockchain oracles with Soravis"',
-                    vimeo: 'https://player.vimeo.com/video/381098007',
+                    vimeo: '',
                 },
-                // {
-                //     title: 'Rossco Paddison',
-                //     partner: 'Mosendo',
-                //     capital: 'capital',
-                //     img: '../presenter/Rossco.png',
-                //     arrington: '"What will it take for "DeFi" to replace legacy financial systems?"',
-                //     vimeo: 'https://player.vimeo.com/video/381098007',
-                // }
+                {
+                    
+                    title: 'Aaron Choi',
+                    partner: 'Kava',
+                    capital: 'capital',
+                    img: '../presenter/Aaron.png',
+                    arrington: '"Defi - How did we get here?"',
+                    vimeo: '',
+                }
             ],
 
         ]

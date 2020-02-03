@@ -817,3 +817,76 @@ table {
 .footer .wrapper .left li .wechat-wrap:hover .wechat-pop {
     display: block;
 }
+
+
+.personal-video-centext {
+    overflow: hidden;
+    /* display: flex;
+    display: -webkit-flex; */
+    width: 100%;
+    border-bottom: #2a2843 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.personal-video-centext dl {
+    width: 30%;
+    float: left;
+    margin-right: 4%;
+}
+
+.personal-video-centext dl dt {
+    float: left;
+    padding-left: 10%;
+}
+
+.personal-video-centext dl dt img {
+    display: inline-block;
+    width: 100px;
+}
+
+.personal-video-centext dl dd {
+    float: left;
+    padding-left: 20px;
+    text-align: -webkit-left;
+    text-align: left;
+}
+
+.personal-video-centext dl dd h3 {
+    color: #1A90FC;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0 10px 0;
+    cursor: pointer;
+}
+
+.personal-video-centext dl dd img {
+    display: block;
+    width: 15px;
+    margin: 5px 0;
+}
+
+.personal-video-centext dl dd p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.personal-video-centext dl dd span {
+    display: inline-block;
+    font-size: 14px;
+    color: #86868e;
+    margin-top: 7px;
+    width:195px;
+    font-style: italic;
+}
+
+#myModal{
+    margin-top: 200px;
+}
+
+#submit{
+    float: right;
+    margin-right: 50px;
+}

@@ -19,8 +19,8 @@ $(function () {
     $.each(list, function (index, childreds) {
         personalHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
-            personalHtml.push('<dl class="plyr" style="cursor: pointer;">');
-            personalHtml.push('<dt><img src="./img/' + item.img + '" alt="' + item.vimeo + '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
+            personalHtml.push('<dl class="plyr" style="cursor: pointer;" data-id=' + item.url +  '>');
+            personalHtml.push('<dt><img src="./img/' + item.img +  '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
             personalHtml.push('<dd>');
             personalHtml.push('<h3>' + item.title + '</h3>');
             personalHtml.push('<b><img src="./img/loding.png" alt=""></b>');
@@ -98,19 +98,35 @@ $(function () {
 
 
     $(".plyr").click(function(e){
-        console.log('e: ', e.currentTarget)
-        // $('#myModal').modal('show');
+        // console.log('e: ', e.currentTarget.dataset.id)
+        var video_url = e.currentTarget.dataset.id;
+        $('#myModal').modal('show');
 
-        var videoFrame = `<iframe src="` + e.currentTarget.alt + `" 
-         height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-    </iframe>`
+        var videoFrame = `
+        <div class="form-group">
+                <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        `
 
         $('.modal-content').html(videoFrame);
 
-        // $('#myModal').modal('show').css({
-        //     // width:'600px',
-        //     // height:'400px',
-        //  });
+        $("#submit").click(function(e){
+            // console.log('ess: ', $("*[id='pwd']").val())
+            var val = $("*[id='pwd']").val();
+            if (val === 'finnexus') {
+                var tempwindow=window.open('_blank')
+                $('#myModal').modal('hide');
+                
+                tempwindow.location = video_url
+            } else {
+                alert("password wrong!")
+            }
+            
+          });
+
       });
 
 })

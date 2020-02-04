@@ -98,34 +98,47 @@ $(function () {
 
 
     $(".plyr").click(function(e){
-        // console.log('e: ', e.currentTarget.dataset.id)
+        var name = $.cookie('name');
+        var pass = 'finnexus';
+        console.log('name: ', name);
+
         var video_url = e.currentTarget.dataset.id;
-        $('#myModal').modal('show');
 
-        var videoFrame = `
-        <div class="form-group">
-                <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-        </div>
-        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-        `
+        if(name == pass) {
+            var tempwindow=window.open('_blank')
+            tempwindow.location = video_url
+        } else {
+            $('#myModal').modal('show');
 
-        $('.modal-content').html(videoFrame);
+            var videoFrame = `
+            <div class="form-group">
+                    <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+            `
 
-        $("#submit").click(function(e){
-            // console.log('ess: ', $("*[id='pwd']").val())
-            var val = $("*[id='pwd']").val();
-            if (val === 'finnexus') {
-                var tempwindow=window.open('_blank')
-                $('#myModal').modal('hide');
+            $('.modal-content').html(videoFrame);
+
+            $("#submit").click(function(e){
+                // console.log('ess: ', $("*[id='pwd']").val())
+                var val = $("*[id='pwd']").val();
+                if (val === pass) {
+                    $.cookie('name', val);
+
+                    console.log("$.cookie('name');", $.cookie('name'))
+
+                    $('#myModal').modal('hide');
+
+                    var tempwindow=window.open('_blank')
+                    tempwindow.location = video_url
+                } else {
+                    alert("password wrong!")
+                }
                 
-                tempwindow.location = video_url
-            } else {
-                alert("password wrong!")
-            }
-            
-          });
+            });
+        }
 
       });
 

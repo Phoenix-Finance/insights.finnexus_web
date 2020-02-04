@@ -98,10 +98,9 @@ $(function () {
 
 
     $(".plyr").click(function(e){
-        var name = $.cookie('name');
         var pass = 'finnexus';
-        console.log('name: ', name);
-
+        
+        var name = $.cookie('name');
         var video_url = e.currentTarget.dataset.id;
 
         if(name == pass) {
@@ -116,18 +115,20 @@ $(function () {
                     <label for="pwd">Password:</label>
                     <input type="password" class="form-control" id="pwd" placeholder="Enter password">
             </div>
+            <button id="cancel" type="submit" class="btn btn-warning">Cancel</button>
             <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+            <span class="tip">Enter the password you were emailed from the FinNexus team to get access to all the Insights summit presentations. 
+            If you have not yet received your password, sign up for the FinNexus newsletter 
+            <a href="https://mailchi.mp/e135a0f4e0d6/insights_summit" target="_blank">here</a> to receive your password.
+            </span>
             `
 
             $('.modal-content').html(videoFrame);
 
             $("#submit").click(function(e){
-                // console.log('ess: ', $("*[id='pwd']").val())
                 var val = $("*[id='pwd']").val();
                 if (val === pass) {
                     $.cookie('name', val);
-
-                    console.log("$.cookie('name');", $.cookie('name'))
 
                     $('#myModal').modal('hide');
 
@@ -138,8 +139,14 @@ $(function () {
                 }
                 
             });
+
+            $("#cancel").click(function(e){
+                $('#myModal').modal('hide');        
+            });
         }
 
-      });
+      })
+
+      
 
 })

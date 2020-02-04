@@ -14,7 +14,7 @@ var data = {
 
     // 个人简介
     personal: {
-        title: 'Featured Speakers',
+        title: 'Watch Now !',
         list: [
             [{
                     title: 'Alex Preukschat',
@@ -55,7 +55,7 @@ var data = {
                 },
                 {
                     title: 'Siddharth verma',
-                    partner: 'Nuo network',
+                    partner: 'Nuo Network',
                     capital: 'capital',
                     img: '../presenter/Siddharthverma.png',
                     arrington: '"Bringing de-fi to masses and future of neo-banking"',

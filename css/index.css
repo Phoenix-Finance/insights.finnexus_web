@@ -890,3 +890,18 @@ table {
     float: right;
     margin-right: 50px;
 }
+
+.tip{
+    color: black;
+    font-size: 12px;
+    display: block;
+    margin-top: 70px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#cancel{
+    float: left;
+    margin-left: 50px;
+}

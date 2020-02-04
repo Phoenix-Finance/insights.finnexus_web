@@ -441,6 +441,7 @@ html {
     color: #86868e;
     margin-top: 7px;
     font-style: italic;
+    text-decoration: underline;
 }
 
 .agenda {

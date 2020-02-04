@@ -418,6 +418,7 @@ table {
     margin-top: 7px;
     width:195px;
     font-style: italic;
+    text-decoration: underline;
 }
 
 .agenda {

@@ -344,10 +344,6 @@ table {
     display: block;
 }
 
-.personal-profile-title p span {
-    padding-top: 10px;
-}
-
 .link-title p:nth-child(2) span {
     color: #fff;
 }
@@ -596,16 +592,15 @@ table {
 
 .link {
     background: url(../img/link-bg.jpg) no-repeat;
-    background-size: 100% 600px;
+    background-size: 100% 700px;
     margin: 0 auto;
-    height: 600px;
+    height: 700px;
 }
 
 .linkBox {
     overflow: hidden;
     width: 1280px;
     margin: 0 auto;
-    height: 600px;
 }
 
 .link-centext>div {
@@ -915,4 +910,10 @@ table {
 #cancel{
     float: left;
     margin-left: 50px;
+}
+
+.video_frame {
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
 }

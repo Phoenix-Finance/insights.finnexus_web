@@ -966,3 +966,12 @@ html {
     float: left;
     margin-left: 50px;
 }
+
+.video_frame {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+
+}

@@ -40,7 +40,7 @@ $(function () {
 
         $('.modal-content').append(videoHtml.join(''));
     } else {
-        var videoFrame = '<iframe width="60%" height="500"  style ="display: block; margin: 0 auto;" '  
+        var videoFrame = '<iframe class="video_frame2" '  
         + 'src="' + 'https://www.youtube.com/embed/' + item.video[0] +
         '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 

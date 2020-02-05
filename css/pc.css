@@ -917,3 +917,10 @@ table {
     height: 500px;
     margin-left: 5%;
 }
+
+.video_frame2 {
+    width: 60%;
+    height: 500px;
+    display: block; 
+    margin: 0 auto;
+}

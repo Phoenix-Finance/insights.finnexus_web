@@ -975,3 +975,9 @@ html {
     margin-bottom: 30px;
 
 }
+.video_frame2 {
+    width: 80%;
+    height: 500px;
+    display: block; 
+    margin: 0 auto;
+}

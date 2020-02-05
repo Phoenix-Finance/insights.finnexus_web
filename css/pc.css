@@ -248,7 +248,7 @@ table {
 }
 
 .personal-profile {
-    height: 800px;
+    height: 1000px;
     background: #120f2e;
 }
 
@@ -260,9 +260,10 @@ table {
 
 .personal-profile-title {
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     margin-top: 50px;
     margin-bottom: 100px;
+    font-weight: 900;
 }
 
 .personal-profile-title p:nth-child(1) {
@@ -341,6 +342,10 @@ table {
     margin-top: 4px;
     text-align: center;
     display: block;
+}
+
+.personal-profile-title p span {
+    padding-top: 10px;
 }
 
 .link-title p:nth-child(2) span {

@@ -54,7 +54,7 @@ var data = {
                     video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
                 },
                 {
-                    title: 'Siddharth verma',
+                    title: 'Siddharth Verma',
                     partner: 'Nuo Network',
                     capital: 'capital',
                     img: '../presenter/Siddharthverma.png',
@@ -127,8 +127,51 @@ var data = {
                     arrington: '"Defi - How did we get here?"',
                     url: 'video.html?index=3&id=2',
                     video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
-                }
+                },
+
             ],
+
+            [{
+                title: 'David Johnston',
+                partner: 'Pegnet',
+                capital: 'capital',
+                img: '../presenter/David.png',
+                arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+                url: 'video.html?index=4&id=0',
+                video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
+            },
+            {
+                title: 'Peko Wan',
+                partner: 'Pundi X',
+                capital: 'capital',
+                img: '../presenter/Peko.png',
+                arrington: '"Blockchain Payment 2020"',
+                url: 'video.html?index=4&id=1',
+                video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
+            },
+            {
+                
+                title: 'Alexander Chepurnoy',
+                partner: 'Ergo',
+                capital: 'capital',
+                img: '../presenter/Alexander.png',
+                arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+                url: 'video.html?index=4&id=2',
+                video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
+            },
+            
+        ],
+        [{
+            title: 'Joaquin Moreno',
+            partner: 'Alianza Blockchain',
+            capital: 'capital',
+            img: '../presenter/Joaquin.png',
+            arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+            url: 'video.html?index=5&id=0',
+            video: 'https://www.youtube.com/embed/qKJrl_iz8SI',
+        },
+        
+    ],
 
         ]
     },

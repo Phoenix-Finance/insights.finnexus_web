@@ -28,7 +28,7 @@ var data = {
                     partner: 'Mosendo',
                     img: '../presenter/RosscoPaddison.png',
                     arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                    url: 'video.html?index=0&id=1',
+                    url: '', // video.html?index=0&id=1
                 },
                 {
                     title: 'Galen Danziger',

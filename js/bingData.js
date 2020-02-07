@@ -19,7 +19,9 @@ $(function () {
     $.each(list, function (index, childreds) {
         personalHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
-            personalHtml.push('<dl class="plyr" style="cursor: pointer;" data-id=' + item.url +  '>');
+            var sty = item.url ? 'style="cursor: pointer;" data-id=' + item.url : '';
+
+            personalHtml.push('<dl class="plyr" ' + sty +  '>');
             personalHtml.push('<dt><img src="./img/' + item.img +  '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
             personalHtml.push('<dd>');
             personalHtml.push('<h3>' + item.title + '</h3>');
@@ -102,6 +104,10 @@ $(function () {
         
         var name = $.cookie('name');
         var video_url = e.currentTarget.dataset.id;
+
+        if (!video_url) {
+            return
+        }
 
         if(name == pass) {
             var tempwindow=window.open('_blank')

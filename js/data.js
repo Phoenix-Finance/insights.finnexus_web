@@ -28,7 +28,7 @@ var data = {
                     partner: 'Mosendo',
                     img: '../presenter/RosscoPaddison.png',
                     arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                    url: '', // video.html?index=0&id=1
+                    url: 'video.html?index=0&id=1', // 
                 },
                 {
                     title: 'Galen Danziger',
@@ -107,19 +107,58 @@ var data = {
 
             ],
 
+        //     [{
+        //         title: 'David Johnston',
+        //         partner: 'Pegnet',
+        //         img: '../presenter/David.png',
+        //         arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+        //         url: 'video.html?index=4&id=0',
+        //     },
+        //     {
+        //         title: 'Peko Wan',
+        //         partner: 'Pundi X',
+        //         img: '../presenter/Peko.png',
+        //         arrington: '"Blockchain Payment 2020"',
+        //         url: 'video.html?index=4&id=1',
+        //     },
+        //     {
+                
+        //         title: 'Alexander Chepurnoy',
+        //         partner: 'Ergo',
+        //         img: '../presenter/Alexander.png',
+        //         arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+        //         url: 'video.html?index=4&id=2',
+        //     },
+            
+        // ],
+        // [{
+        //     title: 'Joaquin Moreno',
+        //     partner: 'Alianza Blockchain',
+        //     img: '../presenter/Joaquin.png',
+        //     arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+        //     url: 'video.html?index=5&id=0',
+        // },
+        // ],
+
+        ]
+    },
+
+    // coming soon
+    Soon: {
+        title: 'Coming Soon !',
+        list: [
+
             [{
                 title: 'David Johnston',
                 partner: 'Pegnet',
                 img: '../presenter/David.png',
                 arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
-                url: 'video.html?index=4&id=0',
             },
             {
                 title: 'Peko Wan',
                 partner: 'Pundi X',
                 img: '../presenter/Peko.png',
                 arrington: '"Blockchain Payment 2020"',
-                url: 'video.html?index=4&id=1',
             },
             {
                 
@@ -127,7 +166,6 @@ var data = {
                 partner: 'Ergo',
                 img: '../presenter/Alexander.png',
                 arrington: '"A New Quest for Decentralization: A Technical Perspective"',
-                url: 'video.html?index=4&id=2',
             },
             
         ],
@@ -136,7 +174,6 @@ var data = {
             partner: 'Alianza Blockchain',
             img: '../presenter/Joaquin.png',
             arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
-            url: 'video.html?index=5&id=0',
         },
         
     ],

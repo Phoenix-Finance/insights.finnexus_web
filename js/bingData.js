@@ -11,8 +11,8 @@ $(function () {
 
 
 
-    $('.personal-profile-title p:first span').text(data.personal.title);
-    $('.personal-profile-title p:last').text(data.personal.Subheading);
+    $('#personal p:first span').text(data.personal.title);
+    $('#personal p:last').text(data.personal.Subheading);
 
     var personalHtml = [];
     var list = data.personal.list;
@@ -33,7 +33,30 @@ $(function () {
         });
         personalHtml.push('</div>');
     })
-    $('.personal-profile-title').after(personalHtml.join(''));
+    $('#personal').after(personalHtml.join(''));
+
+
+    $('#soon p:first span').text(data.Soon.title);
+    $('#soon p:last').text(data.Soon.Subheading);
+
+    var soonHtml = [];
+    var soon_list = data.Soon.list;
+    $.each(soon_list, function (index, childreds) {
+        soonHtml.push('<div class="personal-profile-centext">')
+        childreds.forEach(function (item, k) {
+            soonHtml.push('<dl>');
+            soonHtml.push('<dt><img src="./img/' + item.img +  '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
+            soonHtml.push('<dd>');
+            soonHtml.push('<h3>' + item.title + '</h3>');
+            soonHtml.push('<b><img src="./img/loding.png" alt=""></b>');
+            soonHtml.push('<p>' + item.partner + '</p>');
+            soonHtml.push('<span>' + item.arrington + '</span>');
+            soonHtml.push('</dd>');
+            soonHtml.push('</dl>');
+        });
+        soonHtml.push('</div>');
+    })
+    $('#soon').after(soonHtml.join(''));
 
 
 
@@ -105,9 +128,9 @@ $(function () {
         var name = $.cookie('name');
         var video_url = e.currentTarget.dataset.id;
 
-        if (!video_url) {
-            return
-        }
+        // if (!video_url) {
+        //     return
+        // }
 
         if(name == pass) {
             var tempwindow=window.open('_blank')

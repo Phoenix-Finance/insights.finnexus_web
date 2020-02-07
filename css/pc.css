@@ -247,8 +247,12 @@ table {
     background-image: linear-gradient(to right, #6C63FF, #5434C8);
 }
 
+#soon-profile{
+    padding-bottom: 50px;
+}
+
 .personal-profile {
-    height: 1000px;
+    /* height: 1000px; */
     background: #120f2e;
 }
 

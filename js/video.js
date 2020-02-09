@@ -27,12 +27,14 @@ $(function () {
 
 
         $('.personal-profile-title').html(personalHtml);
+
     
-    var video_length = item.video.length;
+    var video_item = data_video.personal.list[index][id];
+    var video_length = video_item.video.length;
     if (video_length >1) {
         var videoHtml = [];
 
-        item.video.forEach(function (v) {
+        video_item.video.forEach(function (v) {
             videoHtml.push('<iframe class = "video_frame" '  
             + 'src="' + 'https://www.youtube.com/embed/' + v +
             '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
@@ -41,7 +43,7 @@ $(function () {
         $('.modal-content').append(videoHtml.join(''));
     } else {
         var videoFrame = '<iframe class="video_frame2" '  
-        + 'src="' + 'https://www.youtube.com/embed/' + item.video[0] +
+        + 'src="' + 'https://www.youtube.com/embed/' + video_item.video[0] +
         '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
        $('.modal-content').html(videoFrame);

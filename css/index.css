@@ -247,6 +247,10 @@ table {
     padding-bottom: 50px;
 }
 
+#video-profile{
+    padding-bottom: 100px;
+}
+
 .personal-profile {
     /* height: 1000px; */
     background: #120f2e;

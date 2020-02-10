@@ -240,6 +240,7 @@ var data = {
         ['ergo.png', 'https://ergoplatform.org/'],
         ['pegnet.png', 'https://pegnet.org/'],
         ['pundi.png', 'https://pundix.com/'],
+        ['finnexus.png', 'https://www.finnexus.io/'],
     ],
 
     // 底部

@@ -16,7 +16,7 @@ var data = {
     personal: {
         title: 'Watch Now !',
         list: [
-            
+            // 1
             [{
                     title: 'Peter van Mourik',
                     partner: 'ChainLayer',
@@ -39,6 +39,7 @@ var data = {
                     url: 'video.html?index=1&id=2',
                 }
             ],
+            // 2
             [{		
                     title: 'Bruce Li',
                     partner: 'NKN.org',
@@ -61,6 +62,7 @@ var data = {
                     url: 'video.html?index=2&id=2',
                 }
             ],
+            // 3
 
         ]
     },
@@ -69,86 +71,97 @@ var data = {
     Soon: {
         title: 'Coming Soon !',
         list: [
-
-                [{
-                    title: 'Alex Preukschat',
-                    partner: 'Alianza Blockchain',
-                    img: '../presenter/AlexPreukschat.png',
-                    arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
-                    url: 'video.html?index=0&id=0',
-                },
-                {
-                    title: 'Rossco Paddison',
-                    partner: 'Mosendo',
-                    img: '../presenter/RosscoPaddison.png',
-                    arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                    url: 'video.html?index=0&id=1', // 
-                },
-                {
-                    title: 'Galen Danziger',
-                    partner: 'MouseBelt',
-                    img: '../presenter/Galen.png',
-                    arrington: '"Why the crypto VC model is broken"',
-                    url: 'video.html?index=0&id=2',
-                }
-            ],
-            [{
-                title: 'Dan Liebau',
-                partner: 'Lightbulb Capital',
-                img: '../presenter/DanLiebau.png',
-                arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
-                url: 'video.html?index=3&id=0',
-            },
-            {
-                title: 'Soravis Srinawakoon',
-                partner: 'Band Protocol',
-                img: '../presenter/SoravisSrinawakoon.png',
-                arrington: '"An in depth conversation about blockchain oracles with Soravis"',
-                url: 'video.html?index=3&id=1',
-            },
-            {
+                // 1
+                [
+                    {
+                        title: 'Alex Preukschat',
+                        partner: 'Alianza Blockchain',
+                        img: '../presenter/AlexPreukschat.png',
+                        arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
+                        url: 'video.html?index=0&id=0',
+                    },
+                    {
+                        title: 'Rossco Paddison',
+                        partner: 'Mosendo',
+                        img: '../presenter/RosscoPaddison.png',
+                        arrington: '"What will it take for Defi to replace legacy financial systems?"',
+                        url: 'video.html?index=0&id=1',
+                    },
+                    {
+                        title: 'Galen Danziger',
+                        partner: 'MouseBelt',
+                        img: '../presenter/Galen.png',
+                        arrington: '"Why the crypto VC model is broken"',
+                        url: 'video.html?index=0&id=2',
+                    }
+                ],
+                // 2
+                [
+                    {
+                        title: 'Dan Liebau',
+                        partner: 'Lightbulb Capital',
+                        img: '../presenter/DanLiebau.png',
+                        arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
+                        url: 'video.html?index=3&id=0',
+                    },
+                    {
+                        title: 'Soravis Srinawakoon',
+                        partner: 'Band Protocol',
+                        img: '../presenter/SoravisSrinawakoon.png',
+                        arrington: '"An in depth conversation about blockchain oracles with Soravis"',
+                        url: 'video.html?index=3&id=1',
+                    },
+                    {
+                        
+                        title: 'Aaron Choi',
+                        partner: 'Kava',
+                        img: '../presenter/Aaron.png',
+                        arrington: '"Defi - How did we get here?"',
+                        url: 'video.html?index=3&id=2',
+                    },
+                ],
+                // 3
+                [
+                    {
+                        title: 'Alexander Chepurnoy',
+                        partner: 'Pegnet',
+                        img: '../presenter/Alexander Chepurnoy.png',
+                        arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+                    },
+                    {
+                        title: 'Joaquin Moreno',
+                        partner: 'Pundi X',
+                        img: '../presenter/Joaquin Moreno.png',
+                        arrington: '"Blockchain Payment 2020"',
+                    },
+                    {
+                        
+                        title: 'Peko Wan',
+                        partner: 'Ergo',
+                        img: '../presenter/Peko Wan.png',
+                        arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+                    },
                 
-                title: 'Aaron Choi',
-                partner: 'Kava',
-                img: '../presenter/Aaron.png',
-                arrington: '"Defi - How did we get here?"',
-                url: 'video.html?index=3&id=2',
-            },
-
-            ],
-
-            [{
-                title: 'Alexander Chepurnoy',
-                partner: 'Pegnet',
-                img: '../presenter/Alexander Chepurnoy.png',
-                arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
-            },
-            {
-                title: 'Joaquin Moreno',
-                partner: 'Pundi X',
-                img: '../presenter/Joaquin Moreno.png',
-                arrington: '"Blockchain Payment 2020"',
-            },
-            {
+                ],
+                // 4
+                [
+                    {
+                        title: 'David Johnston',
+                        partner: 'Alianza Blockchain',
+                        img: '../presenter/David Johnston.png',
+                        arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+                    },
+                    {
+                        title: 'Ryan Tian',
+                        partner: 'FinNexus',
+                        img: '../presenter/tian.png',
+                        arrington: '"An Introduction to FinNexus"',
+                    }
                 
-                title: 'Peko Wan',
-                partner: 'Ergo',
-                img: '../presenter/Peko Wan.png',
-                arrington: '"A New Quest for Decentralization: A Technical Perspective"',
-            },
-            
-        ],
-        [{
-            title: 'David Johnston',
-            partner: 'Alianza Blockchain',
-            img: '../presenter/David Johnston.png',
-            arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+                ],
+
+            ]
         },
-        
-    ],
-
-        ]
-    },
 
     // 会议
     agenda: {

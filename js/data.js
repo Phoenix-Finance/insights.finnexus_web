@@ -22,21 +22,21 @@ var data = {
                     partner: 'ChainLayer',
                     img: '../presenter/PetervanMourik.png',
                     arrington: '"How validators are changing blockchain ecosystems"',
-                    url: 'video.html?index=1&id=0',
+                    url: 'video.html?index=0&id=0',
                 },
                 {
                     title: 'Siddharth Verma',
                     partner: 'Nuo Network',
                     img: '../presenter/Siddharthverma.png',
                     arrington: '"Bringing de-fi to masses and future of neo-banking"',
-                    url: 'video.html?index=1&id=1',
+                    url: 'video.html?index=0&id=1',
                 },
                 {
                     title: 'Bill Laboon',
                     partner: 'Web3 Foundation',
                     img: '../presenter/BillLaboon.png',
                     arrington: '"An introduction to Polkadot"',
-                    url: 'video.html?index=1&id=2',
+                    url: 'video.html?index=0&id=2',
                 }
             ],
             // 2
@@ -45,21 +45,22 @@ var data = {
                     partner: 'NKN.org',
                     img: '../presenter/bruceli.png',
                     arrington: '"Communication as a service powered by blockchain"',
-                    url: 'video.html?index=2&id=0',
+                    url: 'video.html?index=1&id=0',
                 },
                 {
-                    title: 'Justin Cai',
-                    partner: 'Longhash',
-                    img: '../presenter/JustinCai.png',
-                    arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    url: 'video.html?index=2&id=1',
+                    title: 'Ryan Tian',
+                    partner: 'FinNexus',
+                    img: '../presenter/tian.png',
+                    arrington: '"An Introduction to FinNexus"',                    
+                    url: 'video.html?index=1&id=1',
                 },
+
                 {		
                     title: 'Boyd Cohen',
                     partner: 'Iomob',
                     img: '../presenter/BoydCohen.png',
                     arrington: '"From native token to enterprise sales to the decentralisation of the global mobility ecosystem"',
-                    url: 'video.html?index=2&id=2',
+                    url: 'video.html?index=1&id=2',
                 }
             ],
             // 3
@@ -78,21 +79,18 @@ var data = {
                         partner: 'Alianza Blockchain',
                         img: '../presenter/AlexPreukschat.png',
                         arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
-                        url: 'video.html?index=0&id=0',
                     },
                     {
                         title: 'Rossco Paddison',
                         partner: 'Mosendo',
                         img: '../presenter/RosscoPaddison.png',
                         arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                        url: 'video.html?index=0&id=1',
                     },
                     {
                         title: 'Galen Danziger',
                         partner: 'MouseBelt',
                         img: '../presenter/Galen.png',
                         arrington: '"Why the crypto VC model is broken"',
-                        url: 'video.html?index=0&id=2',
                     }
                 ],
                 // 2
@@ -102,14 +100,12 @@ var data = {
                         partner: 'Lightbulb Capital',
                         img: '../presenter/DanLiebau.png',
                         arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
-                        url: 'video.html?index=3&id=0',
                     },
                     {
                         title: 'Soravis Srinawakoon',
                         partner: 'Band Protocol',
                         img: '../presenter/SoravisSrinawakoon.png',
                         arrington: '"An in depth conversation about blockchain oracles with Soravis"',
-                        url: 'video.html?index=3&id=1',
                     },
                     {
                         
@@ -117,7 +113,6 @@ var data = {
                         partner: 'Kava',
                         img: '../presenter/Aaron.png',
                         arrington: '"Defi - How did we get here?"',
-                        url: 'video.html?index=3&id=2',
                     },
                 ],
                 // 3
@@ -151,12 +146,13 @@ var data = {
                         img: '../presenter/David Johnston.png',
                         arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
                     },
+                    
                     {
-                        title: 'Ryan Tian',
-                        partner: 'FinNexus',
-                        img: '../presenter/tian.png',
-                        arrington: '"An Introduction to FinNexus"',
-                    }
+                        title: 'Justin Cai',
+                        partner: 'Longhash',
+                        img: '../presenter/JustinCai.png',
+                        arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
+                    },                    
                 
                 ],
 
@@ -254,6 +250,7 @@ var data = {
         ['pegnet.png', 'https://pegnet.org/'],
         ['pundi.png', 'https://pundix.com/'],
         ['finnexus.png', 'https://www.finnexus.io/'],
+        ['tauchain.png', 'http://tauchain.org/'],
     ],
 
     // 底部

@@ -16,12 +16,12 @@ $(function () {
     
     // console.log('data.personal.list', list_length, index, id);
 
-    var name = $.cookie('name');
-    var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
-    if (!name || name != pass) {
-        location.href = 'http://insights.finnexus.io/'
-        return
-    }
+    // var name = $.cookie('name');
+    // var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
+    // if (!name || name != pass) {
+    //     location.href = 'http://insights.finnexus.io/'
+    //     return
+    // }
 
     if (list_length <= index || id > 3) {
         location.href = 'http://insights.finnexus.io/'

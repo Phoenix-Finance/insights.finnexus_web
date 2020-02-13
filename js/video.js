@@ -13,6 +13,7 @@ $(function () {
     var index = getPram('index');
     var id = getPram('id');
     var list_length = data.personal.list.length;
+    
     // console.log('data.personal.list', list_length, index, id);
 
     if (list_length <= index || id > 3) {

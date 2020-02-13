@@ -20,12 +20,12 @@ var data_video = {
 
             // 1
             [{		
-                title: 'Bruce Li',
-                video: ['bRklwbKNxiQ'],
+                title: 'Aaron Choi',
+                video: ['rlX4cW7bPuw'],
             },
             {
                 title: 'Ryan Tian',
-                video: ['WnmhMG7FWmw'],
+                video: ['CQRlCAI1xb0'],
             },
             {		
                 title: 'Boyd Cohen',

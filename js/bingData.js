@@ -123,7 +123,7 @@ $(function () {
 
 
     $(".plyr").click(function(e){
-        var pass = 'finnexus';
+        var pass = 'FnXuM1SInsights';
         
         var name = $.cookie('name');
         var video_url = e.currentTarget.dataset.id;

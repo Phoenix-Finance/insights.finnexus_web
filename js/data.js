@@ -40,11 +40,13 @@ var data = {
                 }
             ],
             // 2
-            [{		
-                    title: 'Bruce Li',
-                    partner: 'NKN.org',
-                    img: '../presenter/bruceli.png',
-                    arrington: '"Communication as a service powered by blockchain"',
+            [
+                {
+                        
+                    title: 'Aaron Choi',
+                    partner: 'Kava',
+                    img: '../presenter/Aaron.png',
+                    arrington: '"Defi - How did we get here?"',
                     url: 'video.html?index=1&id=0',
                 },
                 {
@@ -107,34 +109,34 @@ var data = {
                         img: '../presenter/SoravisSrinawakoon.png',
                         arrington: '"An in depth conversation about blockchain oracles with Soravis"',
                     },
-                    {
-                        
-                        title: 'Aaron Choi',
-                        partner: 'Kava',
-                        img: '../presenter/Aaron.png',
-                        arrington: '"Defi - How did we get here?"',
+                    {		
+                        title: 'Bruce Li',
+                        partner: 'NKN.org',
+                        img: '../presenter/bruceli.png',
+                        arrington: '"Communication as a service powered by blockchain"',
+                        url: 'video.html?index=1&id=0',
                     },
                 ],
                 // 3
                 [
                     {
                         title: 'Alexander Chepurnoy',
-                        partner: 'Pegnet',
+                        partner: 'Ergo',
                         img: '../presenter/Alexander Chepurnoy.png',
-                        arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+                        arrington: '"A New Quest for Decentralization: A Technical Perspective"',
                     },
                     {
                         title: 'Joaquin Moreno',
-                        partner: 'Pundi X',
+                        partner: 'Alianza Blockchain',
                         img: '../presenter/Joaquin Moreno.png',
-                        arrington: '"Blockchain Payment 2020"',
+                        arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
                     },
                     {
                         
                         title: 'Peko Wan',
-                        partner: 'Ergo',
+                        partner: 'Pundi X',
                         img: '../presenter/Peko Wan.png',
-                        arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+                        arrington: '"Blockchain Payment 2020"',
                     },
                 
                 ],
@@ -142,9 +144,9 @@ var data = {
                 [
                     {
                         title: 'David Johnston',
-                        partner: 'Alianza Blockchain',
+                        partner: 'Pegnet',
                         img: '../presenter/David Johnston.png',
-                        arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+                        arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
                     },
                     
                     {
@@ -152,7 +154,14 @@ var data = {
                         partner: 'Longhash',
                         img: '../presenter/JustinCai.png',
                         arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    },                    
+                    },  
+                    
+                    {
+                        title: 'Claire Deng',
+                        partner: 'Constant',
+                        img: '../presenter/Claire.png',
+                        arrington: '"DeFI and its Contribution to Mass Adoption"',
+                    },                
                 
                 ],
 

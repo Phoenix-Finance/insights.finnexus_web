@@ -125,7 +125,7 @@ $(function () {
     $(".plyr").click(function(e){
         var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
         
-        var name_sha = sha1($.cookie('name'));
+        var name_sha = $.cookie('name') ? sha1($.cookie('name')) : '';
         var video_url = e.currentTarget.dataset.id;
 
         // if (!video_url) {

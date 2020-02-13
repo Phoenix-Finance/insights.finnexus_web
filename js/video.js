@@ -13,24 +13,21 @@ $(function () {
     var index = getPram('index');
     var id = getPram('id');
     var list_length = data.personal.list.length;
-    
-    // console.log('data.personal.list', list_length, index, id);
 
-    // var name = $.cookie('name');
-    // var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
-    // if (!name || name != pass) {
-    //     location.href = 'http://insights.finnexus.io/'
-    //     return
-    // }
+    var name = $.cookie('name');
+    var name_sha = sha1(name);
+    var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
+    if (!name_sha || name_sha != pass) {
+        location.href = '/'
+        return
+    }
 
     if (list_length <= index || id > 3) {
-        location.href = 'http://insights.finnexus.io/'
+        location.href = '/'
         return
     }
 
     var item = data.personal.list[index][id];
-    
-    // console.log('item', item);
 
     var personalHtml = '<div class="personal-video-centext"><dl>'
         + '<dt><img src="./img/' + item.img + '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>'

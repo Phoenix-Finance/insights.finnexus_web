@@ -123,7 +123,7 @@ $(function () {
 
 
     $(".plyr").click(function(e){
-        var pass = 'FnXuM1SInsights';
+        var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
         
         var name = $.cookie('name');
         var video_url = e.currentTarget.dataset.id;
@@ -158,7 +158,7 @@ $(function () {
             $('.modal-content').html(videoFrame);
 
             $("#submit").click(function(e){
-                var val = $("*[id='pwd']").val();
+                var val = sha1($("*[id='pwd']").val());
                 if (val === pass) {
                     $.cookie('name', val);
 

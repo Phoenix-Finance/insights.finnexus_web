@@ -14,8 +14,7 @@ $(function () {
     var id = getPram('id');
     var list_length = data.personal.list.length;
 
-    var name = $.cookie('name');
-    var name_sha = sha1(name);
+    var name_sha = $.cookie('name') ? sha1($.cookie('name')) : '';
     var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
     if (!name_sha || name_sha != pass) {
         location.href = '/'

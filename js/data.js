@@ -238,6 +238,7 @@ var data = {
 
     // 公司logo 图片
     company: [
+        ['nuo.png', 'https://www.nuo.network/'],
         ['0xcert.png', 'https://0xcert.org/'],
         ['bandprotocol.png', 'https://bandprotocol.com/'],
         ['chainlayer.png','https://www.chainlayer.io/'],

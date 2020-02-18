@@ -11,3 +11,5 @@ git push
 #####
 git checkout main
 git pull origin main
+git merge master
+git push origin main

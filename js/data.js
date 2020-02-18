@@ -164,6 +164,15 @@ var data = {
                     },                
                 
                 ],
+                // 5
+                [
+                    {
+                        title: 'Ohad Asor',
+                        partner: 'Tauchain',
+                        img: '../presenter/Ohad.png',
+                        arrington: '"An Introduction to Tauchain"',
+                    }
+                ]
 
             ]
         },

@@ -598,13 +598,19 @@ table {
     background: url(../img/link-bg.jpg) no-repeat;
     background-size: 100% 700px;
     margin: 0 auto;
-    height: 700px;
 }
 
 .linkBox {
     overflow: hidden;
     width: 1280px;
     margin: 0 auto;
+}
+.linkBox2{
+    padding-bottom: 100px;
+}
+
+.link-centext{
+    margin-bottom: 54px;
 }
 
 .link-centext>div {
@@ -634,6 +640,7 @@ table {
 
 .participate {
     background: #120f2e;
+    padding-bottom: 100px;
 }
 
 .participate .link-title p:nth-child(2) span {

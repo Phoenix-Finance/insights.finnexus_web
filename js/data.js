@@ -171,6 +171,12 @@ var data = {
                         partner: 'Tauchain',
                         img: '../presenter/Ohad.png',
                         arrington: '"An Introduction to Tauchain"',
+                    },
+                    {
+                        title: 'Dr. Qi Zhou',
+                        partner: 'QuarkChain',
+                        img: '../presenter/Zhou.png',
+                        arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
                     }
                 ]
 
@@ -270,6 +276,7 @@ var data = {
         ['pundi.png', 'https://pundix.com/'],
         ['finnexus.png', 'https://www.finnexus.io/'],
         ['tauchain.png', 'http://tauchain.org/'],
+        ['quarkchain.png', 'https://quarkchain.io/'],
     ],
 
     // 底部

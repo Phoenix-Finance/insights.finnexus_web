@@ -126,7 +126,7 @@ var data = {
                 },
                 {
                     title: 'The Wanchain Community Management Team',
-                    partner: '',
+                    partner: 'Wanchain',
                     img: '../presenter/wanchain.png',
                     arrington: '"Community Management: Lessons and Pitfalls"',
                     url: 'video.html?index=4&id=1',

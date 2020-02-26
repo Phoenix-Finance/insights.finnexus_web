@@ -422,6 +422,8 @@ html {
 
 .personal-profile-centext dl:nth-child(2) dd h3 {
     color: #6C63FF;
+    width: 110px;
+    line-height: 16px;
 }
 
 .personal-profile-centext dl dd img {

@@ -403,6 +403,8 @@ table {
 
 .personal-profile-centext dl:nth-child(2) dd h3 {
     color: #6C63FF;
+    max-width: 202px;
+    line-height: 20px;
 }
 
 .personal-profile-centext dl dd img {

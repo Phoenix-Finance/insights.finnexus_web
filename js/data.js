@@ -66,6 +66,72 @@ var data = {
                 }
             ],
             // 3
+            [
+                {
+                    title: 'Alex Preukschat',
+                    partner: 'Alianza Blockchain',
+                    img: '../presenter/AlexPreukschat.png',
+                    arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
+                    url: 'video.html?index=2&id=0',
+                },
+                {
+                    title: 'Rossco Paddison',
+                    partner: 'Mosendo',
+                    img: '../presenter/RosscoPaddison.png',
+                    arrington: '"What will it take for Defi to replace legacy financial systems?"',
+                    url: 'video.html?index=2&id=1',
+                },
+                {
+                    title: 'Galen Danziger',
+                    partner: 'MouseBelt',
+                    img: '../presenter/Galen.png',
+                    arrington: '"Why the crypto VC model is broken"',
+                    url: 'video.html?index=2&id=2',
+                }
+            ],
+            // 4
+            [
+                {
+                    title: 'Soravis Srinawakoon',
+                    partner: 'Band Protocol',
+                    img: '../presenter/SoravisSrinawakoon.png',
+                    arrington: '"An in depth conversation about blockchain oracles with Soravis"',
+                    url: 'video.html?index=3&id=0',
+                },
+                {
+                    title: 'David Johnston',
+                    partner: 'Pegnet',
+                    img: '../presenter/David Johnston.png',
+                    arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+                    url: 'video.html?index=3&id=1',
+                },
+                {
+                        
+                    title: 'Peko Wan',
+                    partner: 'Pundi X',
+                    img: '../presenter/Peko Wan.png',
+                    arrington: '"Blockchain Payment 2020"',
+                    url: 'video.html?index=3&id=2',
+                },
+            ],
+
+            // 5
+            [
+                {
+                    title: 'David Jefferys',
+                    partner: 'V Systems',
+                    img: '../presenter/Jefferys.png',
+                    arrington: '"An Introduction to V.Systems"',
+                    url: 'video.html?index=4&id=0',
+                },
+                {
+                    title: 'The Wanchain Community',
+                    partner: 'Management Team',
+                    img: '../presenter/wanchain.png',
+                    arrington: '"Community Management: Lessons and Pitfalls"',
+                    url: 'video.html?index=4&id=1',
+                },
+            ],
 
         ]
     },
@@ -77,38 +143,12 @@ var data = {
                 // 1
                 [
                     {
-                        title: 'Alex Preukschat',
-                        partner: 'Alianza Blockchain',
-                        img: '../presenter/AlexPreukschat.png',
-                        arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
-                    },
-                    {
-                        title: 'Rossco Paddison',
-                        partner: 'Mosendo',
-                        img: '../presenter/RosscoPaddison.png',
-                        arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                    },
-                    {
-                        title: 'Galen Danziger',
-                        partner: 'MouseBelt',
-                        img: '../presenter/Galen.png',
-                        arrington: '"Why the crypto VC model is broken"',
-                    }
-                ],
-                // 2
-                [
-                    {
                         title: 'Dan Liebau',
                         partner: 'Lightbulb Capital',
                         img: '../presenter/DanLiebau.png',
                         arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
                     },
-                    {
-                        title: 'Soravis Srinawakoon',
-                        partner: 'Band Protocol',
-                        img: '../presenter/SoravisSrinawakoon.png',
-                        arrington: '"An in depth conversation about blockchain oracles with Soravis"',
-                    },
+                    
                     {		
                         title: 'Bruce Li',
                         partner: 'NKN.org',
@@ -116,8 +156,20 @@ var data = {
                         arrington: '"Communication as a service powered by blockchain"',
                         url: 'video.html?index=1&id=0',
                     },
+                    // {
+                    //     title: 'Ohad Asor',
+                    //     partner: 'Tauchain',
+                    //     img: '../presenter/Ohad.png',
+                    //     arrington: '"An Introduction to Tauchain"',
+                    // },
+                    {
+                        title: 'Claire Deng',
+                        partner: 'Constant',
+                        img: '../presenter/Claire.png',
+                        arrington: '"DeFI and its Contribution to Mass Adoption"',
+                    },    
                 ],
-                // 3
+                // 2
                 [
                     {
                         title: 'Alexander Chepurnoy',
@@ -132,56 +184,57 @@ var data = {
                         arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
                     },
                     {
-                        
-                        title: 'Peko Wan',
-                        partner: 'Pundi X',
-                        img: '../presenter/Peko Wan.png',
-                        arrington: '"Blockchain Payment 2020"',
-                    },
+                        title: 'Dr. Qi Zhou',
+                        partner: 'QuarkChain',
+                        img: '../presenter/Zhou.png',
+                        arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
+                    }                  
                 
                 ],
-                // 4
-                [
-                    {
-                        title: 'David Johnston',
-                        partner: 'Pegnet',
-                        img: '../presenter/David Johnston.png',
-                        arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
-                    },
-                    
+                // 3
+                [                    
                     {
                         title: 'Justin Cai',
                         partner: 'Longhash',
                         img: '../presenter/JustinCai.png',
                         arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    },  
-                    
-                    {
-                        title: 'Claire Deng',
-                        partner: 'Constant',
-                        img: '../presenter/Claire.png',
-                        arrington: '"DeFI and its Contribution to Mass Adoption"',
-                    },                
+                    },              
                 
                 ],
-                // 5
-                [
-                    {
-                        title: 'Ohad Asor',
-                        partner: 'Tauchain',
-                        img: '../presenter/Ohad.png',
-                        arrington: '"An Introduction to Tauchain"',
-                    },
-                    {
-                        title: 'Dr. Qi Zhou',
-                        partner: 'QuarkChain',
-                        img: '../presenter/Zhou.png',
-                        arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
-                    }
-                ]
 
             ]
         },
+
+    // 公司logo 图片
+    company: [
+        ['nuo.png', 'https://www.nuo.network/'],
+        ['0xcert.png', 'https://0xcert.org/'],
+        ['bandprotocol.png', 'https://bandprotocol.com/'],
+        ['chainlayer.png','https://www.chainlayer.io/'],
+        // ['loom.png','https://loomx.io/'],
+        ['marlin.png','https://www.marlin.pro/'],
+        ['mousebelt.png','https://www.mousebelt.com/'],
+        ['rivex.png','https://www.rivex.io/'],
+        // ['stasis.png','https://stasis.net/'],
+        ['web3.png','https://web3.foundation/'],
+        ['kava.png','https://www.kava.io/'],
+        ['lightbulb.png','https://www.lightbulbcap.com/'],
+        ['nkn.png','https://www.nkn.org/'],
+        ['mosendo.png', 'https://mosendo.com/'],
+        ['iomob.png', 'https://www.iomob.net/'],
+        ['constant.png', 'https://www.myconstant.com/'],
+        ['longhash.png', 'https://www.longhash.com/en'],
+        ['alianza.png', 'https://alianzablockchain.org/'],
+        ['ergo.png', 'https://ergoplatform.org/'],
+        ['pegnet.png', 'https://pegnet.org/'],
+        ['pundi.png', 'https://pundix.com/'],
+        ['finnexus.png', 'https://www.finnexus.io/'],
+        ['tauchain.png', 'http://tauchain.org/'],
+        ['quarkchain.png', 'https://quarkchain.io/'],
+        ['systems.png', 'https://v.systems/'],
+        ['wanchain.png', 'https://www.wanchain.org/'],
+
+    ],
 
     // 会议
     agenda: {
@@ -250,34 +303,6 @@ var data = {
         ]
 
     },
-
-    // 公司logo 图片
-    company: [
-        ['nuo.png', 'https://www.nuo.network/'],
-        ['0xcert.png', 'https://0xcert.org/'],
-        ['bandprotocol.png', 'https://bandprotocol.com/'],
-        ['chainlayer.png','https://www.chainlayer.io/'],
-        // ['loom.png','https://loomx.io/'],
-        ['marlin.png','https://www.marlin.pro/'],
-        ['mousebelt.png','https://www.mousebelt.com/'],
-        ['rivex.png','https://www.rivex.io/'],
-        // ['stasis.png','https://stasis.net/'],
-        ['web3.png','https://web3.foundation/'],
-        ['kava.png','https://www.kava.io/'],
-        ['lightbulb.png','https://www.lightbulbcap.com/'],
-        ['nkn.png','https://www.nkn.org/'],
-        ['mosendo.png', 'https://mosendo.com/'],
-        ['iomob.png', 'https://www.iomob.net/'],
-        ['constant.png', 'https://www.myconstant.com/'],
-        ['longhash.png', 'https://www.longhash.com/en'],
-        ['alianza.png', 'https://alianzablockchain.org/'],
-        ['ergo.png', 'https://ergoplatform.org/'],
-        ['pegnet.png', 'https://pegnet.org/'],
-        ['pundi.png', 'https://pundix.com/'],
-        ['finnexus.png', 'https://www.finnexus.io/'],
-        ['tauchain.png', 'http://tauchain.org/'],
-        ['quarkchain.png', 'https://quarkchain.io/'],
-    ],
 
     // 底部
     participate: {

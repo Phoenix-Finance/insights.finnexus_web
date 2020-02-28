@@ -268,7 +268,7 @@ table {
 
 .personal-profile-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     margin-top: 50px;
     margin-bottom: 100px;
     font-weight: 900;
@@ -447,7 +447,7 @@ table {
 .agenda-title,
 .link-title {
     text-align: center;
-    font-size: 76px;
+    font-size: 50px;
     margin-top: 60px;
     margin-bottom: 20px;
     font-weight: 900;
@@ -602,7 +602,7 @@ table {
 
 .link {
     background: url(../img/link-bg.jpg) no-repeat;
-    background-size: 100% 700px;
+    background-size: 100% 740px;
     margin: 0 auto;
 }
 

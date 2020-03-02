@@ -198,7 +198,13 @@ var data = {
                         partner: 'Longhash',
                         img: '../presenter/JustinCai.png',
                         arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    },              
+                    },   
+                    {
+                        title: 'Erick Pinos',
+                        partner: 'Ontology',
+                        img: '../presenter/Pinos.png',
+                        arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
+                    },           
                 
                 ],
 

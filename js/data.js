@@ -204,7 +204,13 @@ var data = {
                         partner: 'Ontology',
                         img: '../presenter/Pinos.png',
                         arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
-                    },           
+                    },     
+                    {
+                        title: 'Medha Parlikar',
+                        partner: 'Casper Labs',
+                        img: '../presenter/Parlikar.png',
+                        arrington: '"An Introduction to Casper Labs"',
+                    },       
                 
                 ],
 

@@ -213,6 +213,41 @@ var data = {
                     },       
                 
                 ],
+                // 4
+                [
+                    {
+                        title: 'Shabbir Sultan',
+                        partner: 'Marlin Protocol',
+                        img: '../presenter/Sultan.png',
+                        arrington: '"Lead: Community Development"',
+                    },
+                    {
+                        title: 'Wanchain VPs Oliver & Weijia',
+                        partner: 'Wanchain',
+                        img: '../presenter/wanchain.png',
+                        arrington: '"Section 1 - Cross Chain Interoperability Cases"',
+                    },
+                    {
+                        title: 'Wanchain VPs Oliver & Weijia',
+                        partner: 'Wanchain',
+                        img: '../presenter/wanchain.png',
+                        arrington: '"Section 2 - Wanchain Milestones"',
+                    },
+                ],
+                [
+                    {
+                        title: 'Wanchain VPs Oliver & Weijia',
+                        partner: 'Wanchain',
+                        img: '../presenter/wanchain.png',
+                        arrington: '"Section 3 - Crosschain Interoperability Technology"',
+                    },
+                    {
+                        title: 'Wanchain VPs Oliver & Weijia',
+                        partner: 'Wanchain',
+                        img: '../presenter/wanchain.png',
+                        arrington: '"Section 4 - Wanchain Cross-Chain interoperability"',
+                    },
+                ],
 
             ]
         },

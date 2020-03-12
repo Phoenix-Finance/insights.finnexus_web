@@ -391,6 +391,7 @@ table {
 .personal-profile-centext dl dd {
     float: left;
     padding-left: 20px;
+    max-width: 202px;
 }
 
 .personal-profile-centext dl dd h3 {

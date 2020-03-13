@@ -225,13 +225,13 @@ var data = {
                         title: 'Wanchain VPs Oliver & Weijia',
                         partner: 'Wanchain',
                         img: '../presenter/wanchain.png',
-                        arrington: '"Section 1 - Cross Chain Interoperability Cases"',
+                        arrington: '"Part 1 - Cross Chain Interoperability Cases"',
                     },
                     {
                         title: 'Wanchain VPs Oliver & Weijia',
                         partner: 'Wanchain',
                         img: '../presenter/wanchain.png',
-                        arrington: '"Section 2 - Wanchain Milestones"',
+                        arrington: '"Part 2 - Wanchain Milestones"',
                     },
                 ],
                 [
@@ -239,13 +239,13 @@ var data = {
                         title: 'Wanchain VPs Oliver & Weijia',
                         partner: 'Wanchain',
                         img: '../presenter/wanchain.png',
-                        arrington: '"Section 3 - Crosschain Interoperability Technology"',
+                        arrington: '"Part 3 - Crosschain Interoperability Technology"',
                     },
                     {
                         title: 'Wanchain VPs Oliver & Weijia',
                         partner: 'Wanchain',
                         img: '../presenter/wanchain.png',
-                        arrington: '"Section 4 - Wanchain Cross-Chain interoperability"',
+                        arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
                     },
                 ],
 

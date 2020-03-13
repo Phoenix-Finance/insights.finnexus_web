@@ -131,6 +131,123 @@ var data = {
                     arrington: '"Community Management: Lessons and Pitfalls"',
                     url: 'video.html?index=4&id=1',
                 },
+                {
+                    title: 'Shabbir Sultan',
+                    partner: 'Marlin Protocol',
+                    img: '../presenter/Sultan.png',
+                    arrington: '"Lead: Community Development"',
+                    url: 'video.html?index=4&id=2',
+                },
+            ],
+
+            // 6
+            [
+                {
+                    title: 'Dan Liebau',
+                    partner: 'Lightbulb Capital',
+                    img: '../presenter/DanLiebau.png',
+                    arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
+                    url: 'video.html?index=5&id=0',
+                },
+                
+                {		
+                    title: 'Bruce Li',
+                    partner: 'NKN.org',
+                    img: '../presenter/bruceli.png',
+                    arrington: '"Communication as a service powered by blockchain"',
+                    url: 'video.html?index=5&id=1',
+                },
+                {
+                    title: 'Claire Deng',
+                    partner: 'Constant',
+                    img: '../presenter/Claire.png',
+                    arrington: '"DeFI and its Contribution to Mass Adoption"',
+                    url: 'video.html?index=5&id=2',
+                },    
+            ],
+            // 7
+            [
+                {
+                    title: 'Alexander Chepurnoy',
+                    partner: 'Ergo',
+                    img: '../presenter/Alexander Chepurnoy.png',
+                    arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+                    url: 'video.html?index=6&id=0',
+                },
+                {
+                    title: 'Joaquin Moreno',
+                    partner: 'Alianza Blockchain',
+                    img: '../presenter/Joaquin Moreno.png',
+                    arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+                    url: 'video.html?index=6&id=1',
+                },
+                {
+                    title: 'Dr. Qi Zhou',
+                    partner: 'QuarkChain',
+                    img: '../presenter/Zhou.png',
+                    arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
+                    url: 'video.html?index=6&id=2',
+                }                  
+            
+            ],
+            // 8
+            [                    
+                {
+                    title: 'Justin Cai',
+                    partner: 'Longhash',
+                    img: '../presenter/JustinCai.png',
+                    arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
+                    url: 'video.html?index=7&id=0',
+                },   
+                {
+                    title: 'Erick Pinos',
+                    partner: 'Ontology',
+                    img: '../presenter/Pinos.png',
+                    arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
+                    url: 'video.html?index=7&id=1',
+                },     
+                {
+                    title: 'Medha Parlikar',
+                    partner: 'Casper Labs',
+                    img: '../presenter/Parlikar.png',
+                    arrington: '"An Introduction to Casper Labs"',
+                    url: 'video.html?index=7&id=2',
+                },       
+            
+            ],
+            // 9
+            [
+                {
+                    title: 'Wanchain VPs Oliver & Weijia',
+                    partner: 'Wanchain',
+                    img: '../presenter/wanchain.png',
+                    arrington: '"Part 1 - Cross Chain Interoperability Cases"',
+                    url: 'video.html?index=8&id=0',
+                },
+                {
+                    title: 'Wanchain VPs Oliver & Weijia',
+                    partner: 'Wanchain',
+                    img: '../presenter/wanchain.png',
+                    arrington: '"Part 2 - Wanchain Milestones"',
+                    url: 'video.html?index=8&id=1',
+                },
+                {
+                    title: 'Wanchain VPs Oliver & Weijia',
+                    partner: 'Wanchain',
+                    img: '../presenter/wanchain.png',
+                    arrington: '"Part 3 - Crosschain Interoperability Technology"',
+                    url: 'video.html?index=8&id=2',
+                },
+            ],
+            // 10
+            [
+                {
+                    title: 'Wanchain VPs Oliver & Weijia',
+                    partner: 'Wanchain',
+                    img: '../presenter/wanchain.png',
+                    arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
+                    url: 'video.html?index=9&id=0',
+                },
             ],
 
         ]
@@ -139,117 +256,7 @@ var data = {
     // coming soon
     Soon: {
         title: 'Coming Soon !',
-        list: [
-                // 1
-                [
-                    {
-                        title: 'Dan Liebau',
-                        partner: 'Lightbulb Capital',
-                        img: '../presenter/DanLiebau.png',
-                        arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
-                    },
-                    
-                    {		
-                        title: 'Bruce Li',
-                        partner: 'NKN.org',
-                        img: '../presenter/bruceli.png',
-                        arrington: '"Communication as a service powered by blockchain"',
-                        url: 'video.html?index=1&id=0',
-                    },
-                    // {
-                    //     title: 'Ohad Asor',
-                    //     partner: 'Tauchain',
-                    //     img: '../presenter/Ohad.png',
-                    //     arrington: '"An Introduction to Tauchain"',
-                    // },
-                    {
-                        title: 'Claire Deng',
-                        partner: 'Constant',
-                        img: '../presenter/Claire.png',
-                        arrington: '"DeFI and its Contribution to Mass Adoption"',
-                    },    
-                ],
-                // 2
-                [
-                    {
-                        title: 'Alexander Chepurnoy',
-                        partner: 'Ergo',
-                        img: '../presenter/Alexander Chepurnoy.png',
-                        arrington: '"A New Quest for Decentralization: A Technical Perspective"',
-                    },
-                    {
-                        title: 'Joaquin Moreno',
-                        partner: 'Alianza Blockchain',
-                        img: '../presenter/Joaquin Moreno.png',
-                        arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
-                    },
-                    {
-                        title: 'Dr. Qi Zhou',
-                        partner: 'QuarkChain',
-                        img: '../presenter/Zhou.png',
-                        arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
-                    }                  
-                
-                ],
-                // 3
-                [                    
-                    {
-                        title: 'Justin Cai',
-                        partner: 'Longhash',
-                        img: '../presenter/JustinCai.png',
-                        arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    },   
-                    {
-                        title: 'Erick Pinos',
-                        partner: 'Ontology',
-                        img: '../presenter/Pinos.png',
-                        arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
-                    },     
-                    {
-                        title: 'Medha Parlikar',
-                        partner: 'Casper Labs',
-                        img: '../presenter/Parlikar.png',
-                        arrington: '"An Introduction to Casper Labs"',
-                    },       
-                
-                ],
-                // 4
-                [
-                    {
-                        title: 'Shabbir Sultan',
-                        partner: 'Marlin Protocol',
-                        img: '../presenter/Sultan.png',
-                        arrington: '"Lead: Community Development"',
-                    },
-                    {
-                        title: 'Wanchain VPs Oliver & Weijia',
-                        partner: 'Wanchain',
-                        img: '../presenter/wanchain.png',
-                        arrington: '"Part 1 - Cross Chain Interoperability Cases"',
-                    },
-                    {
-                        title: 'Wanchain VPs Oliver & Weijia',
-                        partner: 'Wanchain',
-                        img: '../presenter/wanchain.png',
-                        arrington: '"Part 2 - Wanchain Milestones"',
-                    },
-                ],
-                [
-                    {
-                        title: 'Wanchain VPs Oliver & Weijia',
-                        partner: 'Wanchain',
-                        img: '../presenter/wanchain.png',
-                        arrington: '"Part 3 - Crosschain Interoperability Technology"',
-                    },
-                    {
-                        title: 'Wanchain VPs Oliver & Weijia',
-                        partner: 'Wanchain',
-                        img: '../presenter/wanchain.png',
-                        arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
-                    },
-                ],
-
-            ]
+        list: []
         },
 
     // 公司logo 图片

@@ -16,7 +16,12 @@ $(function () {
 
     var personalHtml = [];
     var list = data.personal.list;
-    $.each(list, function (index, childreds) {
+    var ab_list = [];
+    for(var i=0,len=list.length;i<len;i+=3){
+        ab_list.push(list.slice(i,i+3));
+    }
+    
+    $.each(ab_list, function (index, childreds) {
         personalHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
             var sty = item.url ? 'style="cursor: pointer;" data-id=' + item.url : '';
@@ -32,7 +37,8 @@ $(function () {
             personalHtml.push('</dl>');
         });
         personalHtml.push('</div>');
-    })
+    });
+
     $('#personal').after(personalHtml.join(''));
 
 

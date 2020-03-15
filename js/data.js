@@ -17,238 +17,223 @@ var data = {
         title: 'Watch Now !',
         list: [
             // 1
-            [{
-                    title: 'Peter van Mourik',
-                    partner: 'ChainLayer',
-                    img: '../presenter/PetervanMourik.png',
-                    arrington: '"How validators are changing blockchain ecosystems"',
-                    url: 'video.html?index=0&id=0',
-                },
-                {
-                    title: 'Siddharth Verma',
-                    partner: 'Nuo Network',
-                    img: '../presenter/Siddharthverma.png',
-                    arrington: '"Bringing de-fi to masses and future of neo-banking"',
-                    url: 'video.html?index=0&id=1',
-                },
-                {
-                    title: 'Bill Laboon',
-                    partner: 'Web3 Foundation',
-                    img: '../presenter/BillLaboon.png',
-                    arrington: '"An introduction to Polkadot"',
-                    url: 'video.html?index=0&id=2',
-                }
-            ],
+            {
+                title: 'Peter van Mourik',
+                partner: 'ChainLayer',
+                img: '../presenter/PetervanMourik.png',
+                arrington: '"How validators are changing blockchain ecosystems"',
+                url: 'video.html?index=PetervanMourik',
+            },
+            {
+                title: 'Siddharth Verma',
+                partner: 'Nuo Network',
+                img: '../presenter/Siddharthverma.png',
+                arrington: '"Bringing de-fi to masses and future of neo-banking"',
+                url: 'video.html?index=Siddharthverma',
+            },
+            {
+                title: 'Bill Laboon',
+                partner: 'Web3 Foundation',
+                img: '../presenter/BillLaboon.png',
+                arrington: '"An introduction to Polkadot"',
+                url: 'video.html?index=BillLaboon',
+            },
             // 2
-            [
-                {
-                        
-                    title: 'Aaron Choi',
-                    partner: 'Kava',
-                    img: '../presenter/Aaron.png',
-                    arrington: '"Defi - How did we get here?"',
-                    url: 'video.html?index=1&id=0',
-                },
-                {
-                    title: 'Ryan Tian',
-                    partner: 'FinNexus',
-                    img: '../presenter/tian.png',
-                    arrington: '"An Introduction to FinNexus"',                    
-                    url: 'video.html?index=1&id=1',
-                },
+            {                        
+                title: 'Aaron Choi',
+                partner: 'Kava',
+                img: '../presenter/Aaron.png',
+                arrington: '"Defi - How did we get here?"',
+                url: 'video.html?index=Aaron',
+            },
+            {
+                title: 'Ryan Tian',
+                partner: 'FinNexus',
+                img: '../presenter/tian.png',
+                arrington: '"An Introduction to FinNexus"',                    
+                url: 'video.html?index=tian',
+            },
 
-                {		
-                    title: 'Boyd Cohen',
-                    partner: 'Iomob',
-                    img: '../presenter/BoydCohen.png',
-                    arrington: '"From native token to enterprise sales to the decentralisation of the global mobility ecosystem"',
-                    url: 'video.html?index=1&id=2',
-                }
-            ],
+            {		
+                title: 'Boyd Cohen',
+                partner: 'Iomob',
+                img: '../presenter/BoydCohen.png',
+                arrington: '"From native token to enterprise sales to the decentralisation of the global mobility ecosystem"',
+                url: 'video.html?index=BoydCohen',
+            },
             // 3
-            [
-                {
-                    title: 'Alex Preukschat',
-                    partner: 'Alianza Blockchain',
-                    img: '../presenter/AlexPreukschat.png',
-                    arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
-                    url: 'video.html?index=2&id=0',
-                },
-                {
-                    title: 'Rossco Paddison',
-                    partner: 'Mosendo',
-                    img: '../presenter/RosscoPaddison.png',
-                    arrington: '"What will it take for Defi to replace legacy financial systems?"',
-                    url: 'video.html?index=2&id=1',
-                },
-                {
-                    title: 'Galen Danziger',
-                    partner: 'MouseBelt',
-                    img: '../presenter/Galen.png',
-                    arrington: '"Why the crypto VC model is broken"',
-                    url: 'video.html?index=2&id=2',
-                }
-            ],
+            {
+                title: 'Alex Preukschat',
+                partner: 'Alianza Blockchain',
+                img: '../presenter/AlexPreukschat.png',
+                arrington: '"Lessons in Personal Development from Bitcoin and Blockchain / Identity is the New Money"',
+                url: 'video.html?index=AlexPreukschat',
+            },
+            {
+                title: 'Rossco Paddison',
+                partner: 'Mosendo',
+                img: '../presenter/RosscoPaddison.png',
+                arrington: '"What will it take for Defi to replace legacy financial systems?"',
+                url: 'video.html?index=RosscoPaddison',
+            },
+            {
+                title: 'Galen Danziger',
+                partner: 'MouseBelt',
+                img: '../presenter/Galen.png',
+                arrington: '"Why the crypto VC model is broken"',
+                url: 'video.html?index=Galen',
+            },
             // 4
-            [
-                {
-                    title: 'Soravis Srinawakoon',
-                    partner: 'Band Protocol',
-                    img: '../presenter/SoravisSrinawakoon.png',
-                    arrington: '"An in depth conversation about blockchain oracles with Soravis"',
-                    url: 'video.html?index=3&id=0',
-                },
-                {
-                    title: 'David Johnston',
-                    partner: 'Pegnet',
-                    img: '../presenter/David Johnston.png',
-                    arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
-                    url: 'video.html?index=3&id=1',
-                },
-                {
-                        
-                    title: 'Peko Wan',
-                    partner: 'Pundi X',
-                    img: '../presenter/Peko Wan.png',
-                    arrington: '"Blockchain Payment 2020"',
-                    url: 'video.html?index=3&id=2',
-                },
-            ],
-
+            {
+                title: 'Soravis Srinawakoon',
+                partner: 'Band Protocol',
+                img: '../presenter/SoravisSrinawakoon.png',
+                arrington: '"An in depth conversation about blockchain oracles with Soravis"',
+                url: 'video.html?index=SoravisSrinawakoon',
+            },
+            {
+                title: 'David Johnston',
+                partner: 'Pegnet',
+                img: '../presenter/David Johnston.png',
+                arrington: '"Fully-decentralized Mineable Stablecoins are the Future"',
+                url: 'video.html?index=Johnston',
+            },
+            {
+                    
+                title: 'Peko Wan',
+                partner: 'Pundi X',
+                img: '../presenter/Peko Wan.png',
+                arrington: '"Blockchain Payment 2020"',
+                url: 'video.html?index=Wan',
+            },
             // 5
-            [
-                {
-                    title: 'David Jefferys',
-                    partner: 'V Systems',
-                    img: '../presenter/Jefferys.png',
-                    arrington: '"An Introduction to V.Systems"',
-                    url: 'video.html?index=4&id=0',
-                },
-                {
-                    title: 'The Wanchain Community Management Team',
-                    partner: 'Wanchain',
-                    img: '../presenter/wanchain.png',
-                    arrington: '"Community Management: Lessons and Pitfalls"',
-                    url: 'video.html?index=4&id=1',
-                },
-                {
-                    title: 'Shabbir Sultan',
-                    partner: 'Marlin Protocol',
-                    img: '../presenter/Sultan.png',
-                    arrington: '"Lead: Community Development"',
-                    url: 'video.html?index=4&id=2',
-                },
-            ],
-
+            {
+                title: 'David Jefferys',
+                partner: 'V Systems',
+                img: '../presenter/Jefferys.png',
+                arrington: '"An Introduction to V.Systems"',
+                url: 'video.html?index=Jefferys',
+            },
+            {
+                title: 'The Wanchain Community Management Team',
+                partner: 'Wanchain',
+                img: '../presenter/wanchain.png',
+                arrington: '"Community Management: Lessons and Pitfalls"',
+                url: 'video.html?index=wanchainTeam',
+            },
+            {
+                title: 'Shabbir Sultan',
+                partner: 'Marlin Protocol',
+                img: '../presenter/Sultan.png',
+                arrington: '"Lead: Community Development"',
+                url: 'video.html?index=Sultan',
+            },
             // 6
-            [
-                {
-                    title: 'Dan Liebau',
-                    partner: 'Lightbulb Capital',
-                    img: '../presenter/DanLiebau.png',
-                    arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
-                    url: 'video.html?index=5&id=0',
-                },
-                
-                {		
-                    title: 'Bruce Li',
-                    partner: 'NKN.org',
-                    img: '../presenter/bruceli.png',
-                    arrington: '"Communication as a service powered by blockchain"',
-                    url: 'video.html?index=5&id=1',
-                },
-                {
-                    title: 'Claire Deng',
-                    partner: 'Constant',
-                    img: '../presenter/Claire.png',
-                    arrington: '"DeFI and its Contribution to Mass Adoption"',
-                    url: 'video.html?index=5&id=2',
-                },    
-            ],
-            // 7
-            [
-                {
-                    title: 'Alexander Chepurnoy',
-                    partner: 'Ergo',
-                    img: '../presenter/Alexander Chepurnoy.png',
-                    arrington: '"A New Quest for Decentralization: A Technical Perspective"',
-                    url: 'video.html?index=6&id=0',
-                },
-                {
-                    title: 'Joaquin Moreno',
-                    partner: 'Alianza Blockchain',
-                    img: '../presenter/Joaquin Moreno.png',
-                    arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
-                    url: 'video.html?index=6&id=1',
-                },
-                {
-                    title: 'Dr. Qi Zhou',
-                    partner: 'QuarkChain',
-                    img: '../presenter/Zhou.png',
-                    arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
-                    url: 'video.html?index=6&id=2',
-                }                  
+            {
+                title: 'Dan Liebau',
+                partner: 'Lightbulb Capital',
+                img: '../presenter/DanLiebau.png',
+                arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
+                url: 'video.html?index=DanLiebau',
+            },
             
-            ],
+            {		
+                title: 'Bruce Li',
+                partner: 'NKN.org',
+                img: '../presenter/bruceli.png',
+                arrington: '"Communication as a service powered by blockchain"',
+                url: 'video.html?index=bruceli',
+            },
+            {
+                title: 'Claire Deng',
+                partner: 'Constant',
+                img: '../presenter/Claire.png',
+                arrington: '"DeFI and its Contribution to Mass Adoption"',
+                url: 'video.html?index=Claire',
+            }, 
+            // 7  
+            {
+                title: 'Alexander Chepurnoy',
+                partner: 'Ergo',
+                img: '../presenter/Alexander Chepurnoy.png',
+                arrington: '"A New Quest for Decentralization: A Technical Perspective"',
+                url: 'video.html?index=Chepurnoy',
+            },
+            {
+                title: 'Joaquin Moreno',
+                partner: 'Alianza Blockchain',
+                img: '../presenter/Joaquin Moreno.png',
+                arrington: '"Latin America Blockchain Industry Report – hosted by Wanchain’s Oliver Birch"',
+                url: 'video.html?index=Moreno',
+            },
+            {
+                title: 'Dr. Qi Zhou',
+                partner: 'QuarkChain',
+                img: '../presenter/Zhou.png',
+                arrington: '"Boson Consensus: A Scalable Blockchain Sharding Consensus"',
+                url: 'video.html?index=Zhou',
+            },
             // 8
-            [                    
-                {
-                    title: 'Justin Cai',
-                    partner: 'Longhash',
-                    img: '../presenter/JustinCai.png',
-                    arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
-                    url: 'video.html?index=7&id=0',
-                },   
-                {
-                    title: 'Erick Pinos',
-                    partner: 'Ontology',
-                    img: '../presenter/Pinos.png',
-                    arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
-                    url: 'video.html?index=7&id=1',
-                },     
-                {
-                    title: 'Medha Parlikar',
-                    partner: 'Casper Labs',
-                    img: '../presenter/Parlikar.png',
-                    arrington: '"An Introduction to Casper Labs"',
-                    url: 'video.html?index=7&id=2',
-                },       
-            
-            ],
+            {
+                title: 'Justin Cai',
+                partner: 'Longhash',
+                img: '../presenter/JustinCai.png',
+                arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
+                url: 'video.html?index=JustinCai',
+            },   
+            {
+                title: 'Erick Pinos',
+                partner: 'Ontology',
+                img: '../presenter/Pinos.png',
+                arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
+                url: 'video.html?index=Pinos',
+            },     
+            {
+                title: 'Medha Parlikar',
+                partner: 'Casper Labs',
+                img: '../presenter/Parlikar.png',
+                arrington: '"An Introduction to Casper Labs"',
+                url: 'video.html?index=Parlikar',
+            },  
             // 9
-            [
-                {
-                    title: 'Wanchain VPs Oliver & Weijia',
-                    partner: 'Wanchain',
-                    img: '../presenter/wanchain.png',
-                    arrington: '"Part 1 - Cross Chain Interoperability Cases"',
-                    url: 'video.html?index=8&id=0',
-                },
-                {
-                    title: 'Wanchain VPs Oliver & Weijia',
-                    partner: 'Wanchain',
-                    img: '../presenter/wanchain.png',
-                    arrington: '"Part 2 - Wanchain Milestones"',
-                    url: 'video.html?index=8&id=1',
-                },
-                {
-                    title: 'Wanchain VPs Oliver & Weijia',
-                    partner: 'Wanchain',
-                    img: '../presenter/wanchain.png',
-                    arrington: '"Part 3 - Crosschain Interoperability Technology"',
-                    url: 'video.html?index=8&id=2',
-                },
-            ],
+            {
+                title: 'Ohad Asor',
+                partner: 'Tauchain',
+                img: '../presenter/Ohad.png',
+                arrington: '"An Introduction to Tauchain"',
+                url: 'video.html?index=Ohad',
+            },
+            {
+                title: 'Wanchain VPs Oliver & Weijia',
+                partner: 'Wanchain',
+                img: '../presenter/wanchain.png',
+                arrington: '"Part 1 - Cross Chain Interoperability Cases"',
+                url: 'video.html?index=wanchain1',
+            },
+            {
+                title: 'Wanchain VPs Oliver & Weijia',
+                partner: 'Wanchain',
+                img: '../presenter/wanchain.png',
+                arrington: '"Part 2 - Wanchain Milestones"',
+                url: 'video.html?index=wanchain2',
+            },
+            
             // 10
-            [
-                {
-                    title: 'Wanchain VPs Oliver & Weijia',
-                    partner: 'Wanchain',
-                    img: '../presenter/wanchain.png',
-                    arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
-                    url: 'video.html?index=9&id=0',
-                },
-            ],
+            {
+                title: 'Wanchain VPs Oliver & Weijia',
+                partner: 'Wanchain',
+                img: '../presenter/wanchain.png',
+                arrington: '"Part 3 - Crosschain Interoperability Technology"',
+                url: 'video.html?index=wanchain3',
+            },
+            {
+                title: 'Wanchain VPs Oliver & Weijia',
+                partner: 'Wanchain',
+                img: '../presenter/wanchain.png',
+                arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
+                url: 'video.html?index=wanchain4',
+            },
+            
 
         ]
     },

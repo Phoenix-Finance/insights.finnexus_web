@@ -247,6 +247,13 @@ var data = {
                         img: '../presenter/wanchain.png',
                         arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
                     },
+                    
+                    {
+                        title: 'Ohad Asor',
+                        partner: 'Tauchain',
+                        img: '../presenter/Ohad.png',
+                        arrington: '"An Introduction to Tauchain"',
+                    },
                 ],
 
             ]

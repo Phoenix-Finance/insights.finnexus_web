@@ -39,7 +39,7 @@ var data = {
                 url: 'video.html?index=BillLaboon',
             },
             // 2
-            {                        
+            {
                 title: 'Aaron Choi',
                 partner: 'Kava',
                 img: '../presenter/Aaron.png',
@@ -50,11 +50,11 @@ var data = {
                 title: 'Ryan Tian',
                 partner: 'FinNexus',
                 img: '../presenter/tian.png',
-                arrington: '"An Introduction to FinNexus"',                    
+                arrington: '"An Introduction to FinNexus"',
                 url: 'video.html?index=tian',
             },
 
-            {		
+            {
                 title: 'Boyd Cohen',
                 partner: 'Iomob',
                 img: '../presenter/BoydCohen.png',
@@ -99,7 +99,7 @@ var data = {
                 url: 'video.html?index=Johnston',
             },
             {
-                    
+
                 title: 'Peko Wan',
                 partner: 'Pundi X',
                 img: '../presenter/Peko Wan.png',
@@ -125,7 +125,7 @@ var data = {
                 title: 'Shabbir Sultan',
                 partner: 'Marlin Protocol',
                 img: '../presenter/Sultan.png',
-                arrington: '"Lead: Community Development"',
+                arrington: '"Security and scaling challenges at the network layer (AKA Layer-0)"',
                 url: 'video.html?index=Sultan',
             },
             // 6
@@ -136,8 +136,8 @@ var data = {
                 arrington: '"Cryptocurrencies and ICOs: Are they scams? An empirical analysis"',
                 url: 'video.html?index=DanLiebau',
             },
-            
-            {		
+
+            {
                 title: 'Bruce Li',
                 partner: 'NKN.org',
                 img: '../presenter/bruceli.png',
@@ -150,7 +150,7 @@ var data = {
                 img: '../presenter/Claire.png',
                 arrington: '"DeFI and its Contribution to Mass Adoption"',
                 url: 'video.html?index=Claire',
-            }, 
+            },
             // 7  
             {
                 title: 'Alexander Chepurnoy',
@@ -180,21 +180,21 @@ var data = {
                 img: '../presenter/JustinCai.png',
                 arrington: '"Leveraging on-chain data analysis to generate insight on the blockchain ecosystem"',
                 url: 'video.html?index=JustinCai',
-            },   
+            },
             {
                 title: 'Erick Pinos',
                 partner: 'Ontology',
                 img: '../presenter/Pinos.png',
                 arrington: '"Developing the Ontology Ecosystem With a Global Talent Pool"',
                 url: 'video.html?index=Pinos',
-            },     
+            },
             {
                 title: 'Medha Parlikar',
                 partner: 'Casper Labs',
                 img: '../presenter/Parlikar.png',
                 arrington: '"An Introduction to Casper Labs"',
                 url: 'video.html?index=Parlikar',
-            },  
+            },
             // 9
             {
                 title: 'Ohad Asor',
@@ -217,7 +217,7 @@ var data = {
                 arrington: '"Part 2 - Wanchain Milestones"',
                 url: 'video.html?index=wanchain2',
             },
-            
+
             // 10
             {
                 title: 'Wanchain VPs Oliver & Weijia',
@@ -233,7 +233,7 @@ var data = {
                 arrington: '"Part 4 - Wanchain Cross-Chain interoperability"',
                 url: 'video.html?index=wanchain4',
             },
-            
+
 
         ]
     },
@@ -242,23 +242,23 @@ var data = {
     Soon: {
         title: 'Coming Soon !',
         list: []
-        },
+    },
 
     // 公司logo 图片
     company: [
         ['nuo.png', 'https://www.nuo.network/'],
         ['0xcert.png', 'https://0xcert.org/'],
         ['bandprotocol.png', 'https://bandprotocol.com/'],
-        ['chainlayer.png','https://www.chainlayer.io/'],
+        ['chainlayer.png', 'https://www.chainlayer.io/'],
         // ['loom.png','https://loomx.io/'],
-        ['marlin.png','https://www.marlin.pro/'],
-        ['mousebelt.png','https://www.mousebelt.com/'],
-        ['rivex.png','https://www.rivex.io/'],
+        ['marlin.png', 'https://www.marlin.pro/'],
+        ['mousebelt.png', 'https://www.mousebelt.com/'],
+        ['rivex.png', 'https://www.rivex.io/'],
         // ['stasis.png','https://stasis.net/'],
-        ['web3.png','https://web3.foundation/'],
-        ['kava.png','https://www.kava.io/'],
-        ['lightbulb.png','https://www.lightbulbcap.com/'],
-        ['nkn.png','https://www.nkn.org/'],
+        ['web3.png', 'https://web3.foundation/'],
+        ['kava.png', 'https://www.kava.io/'],
+        ['lightbulb.png', 'https://www.lightbulbcap.com/'],
+        ['nkn.png', 'https://www.nkn.org/'],
         ['mosendo.png', 'https://mosendo.com/'],
         ['iomob.png', 'https://www.iomob.net/'],
         ['constant.png', 'https://www.myconstant.com/'],

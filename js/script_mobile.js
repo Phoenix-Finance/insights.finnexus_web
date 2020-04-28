@@ -112,6 +112,119 @@ Raphael.fn.pieChart = function (cx, cy, r, values, labels, stroke) {
 };
 
 $(function () {
+    // 1
+    // $('.icto_modal').text(icto.modal.content);
+
+    // 2
+    var rulesHtml = [];
+    var list = icto.rules.list;
+
+    $.each(list, function (index, childreds) {
+        if (index < list.length - 1) {
+            var ht = '<div class="am-g am-g-fixed" style="padding: 20px 0;border-bottom: 1px solid #C3C3C3;"><div class="am-u-sm-6">' + childreds.title +
+                '</div><div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            rulesHtml.push(ht)
+        } else {
+            var ht = '<div class="am-g am-g-fixed" style="padding-top: 20px; padding-bottom: 20px;"><div class="am-u-sm-6">' + childreds.title +
+                '</div><div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            rulesHtml.push(ht)
+        }
+    });
+
+    $('#rules').append(rulesHtml.join(''));
+
+    // 2.1
+    var list1Html = [];
+    var list = icto.am_list.list1;
+
+    $.each(list, function (index, childreds) {
+        var ht = '<ul class="am-list am-list-static am-list-border" style="' + childreds.ul_style + '"><li style="' + childreds.li_style + '">' +
+            childreds.title + '<span>' + childreds.span_title + '</span></li></ul>'
+        list1Html.push(ht)
+    });
+
+    $('#list1').append(list1Html.join(''));
+
+    var list2Html = [];
+    var list = icto.am_list.list2;
+
+    $.each(list, function (index, childreds) {
+        var ht = '<ul class="am-list am-list-static am-list-border" style="' + childreds.ul_style + '"><li style="' + childreds.li_style + '">' +
+            childreds.title + '<span>' + childreds.span_title + '</span></li></ul>'
+        list2Html.push(ht)
+    });
+
+    $('#list2').append(list2Html.join(''));
+
+    // 3
+    var notesHtml = [];
+    $('#notes strong').text(icto.notes.title);
+    var list = icto.notes.list;
+    notesHtml.push('<li>')
+    $.each(list, function (index, childreds) {
+        var ht = '<i class="am-icon-star am-icon-fw"></i><span>' + childreds + '<br /></span>'
+        notesHtml.push(ht)
+    });
+    notesHtml.push('</li>')
+
+    $('#notes').append(notesHtml.join(''));
+
+    // 4
+    var exchangeHtml = [];
+    var list = icto.exchange.list;
+    $.each(list, function (index, childreds) {
+        var ht = '<ul class="am-list am-list-static am-list-border" style="margin: 0;"><li class="div1">' + childreds + '</li></ul>'
+        if (index < list.length - 1) {
+            ht += '<i class="am-icon-arrow-down am-icon-lg div1-i"></i>'
+        }
+
+        exchangeHtml.push(ht)
+    });
+
+    $('#exchange').append(exchangeHtml.join(''));
+
+    // 5
+    var data_list = [{
+            "title": 'UM1S 30%',
+            'par': '30%'
+        },
+        {
+            "title": 'FNX',
+            'par': '70%'
+        },
+    ]
+
+    var tbodayHtml = [];
+    $.each(data_list, function (index, childreds) {
+        var ht = '<tr><th scope="row">' + childreds.title + '</th><td>' + childreds.par + '</td></tr>'
+        tbodayHtml.push(ht)
+    });
+
+    $('#tbody').append(tbodayHtml.join(''));
+
+    // 6
+    var lastHtml = [];
+    $('#icto_last h1').text(icto.icto_last.title);
+    var list = icto.icto_last.list;
+    lastHtml.push('<div class="am-g am-g-fixed">')
+    $.each(list, function (index, childreds) {
+        if (index < list.length - 1) {
+            var ht =
+                '<ul class="am-list am-list-static am-list-border" style="margin: 10px;"><li class="div1">' + childreds +
+                '</li></ul><i class="am-icon-arrow-down am-icon-lg div1-i"></i>'
+        } else {
+            var ht = '<ul class="am-list am-list-static am-list-border" style="margin: 10px;"><li class="div1">' + childreds +
+                '</li></ul>'
+        }
+
+        lastHtml.push(ht)
+    });
+    lastHtml.push('</div>')
+
+    $('#icto_last').append(lastHtml.join(''));
+
+
+    // last
     var values = [],
         labels = [];
     $("tr").each(function () {

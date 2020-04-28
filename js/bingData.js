@@ -17,17 +17,18 @@ $(function () {
     var personalHtml = [];
     var list = data.personal.list;
     var ab_list = [];
-    for(var i=0,len=list.length;i<len;i+=3){
-        ab_list.push(list.slice(i,i+3));
+    for (var i = 0, len = list.length; i < len; i += 3) {
+        ab_list.push(list.slice(i, i + 3));
     }
-    
+
     $.each(ab_list, function (index, childreds) {
+        console.log(childreds)
         personalHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
             var sty = item.url ? 'style="cursor: pointer;" data-id=' + item.url : '';
 
-            personalHtml.push('<dl class="plyr" ' + sty +  '>');
-            personalHtml.push('<dt><img src="./img/' + item.img +  '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
+            personalHtml.push('<dl class="plyr" ' + sty + '>');
+            personalHtml.push('<dt><img src="./img/' + item.img + '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
             personalHtml.push('<dd>');
             personalHtml.push('<h3>' + item.title + '</h3>');
             personalHtml.push('<b><img src="./img/loding.png" alt=""></b>');
@@ -51,7 +52,7 @@ $(function () {
         soonHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
             soonHtml.push('<dl>');
-            soonHtml.push('<dt><img src="./img/' + item.img +  '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
+            soonHtml.push('<dt><img src="./img/' + item.img + '" style="width: 88px;border-radius: 50px;filter:grayscale(100%);-webkit-filter:grayscale(100%)" ' + '></dt>');
             soonHtml.push('<dd>');
             soonHtml.push('<h3>' + item.title + '</h3>');
             soonHtml.push('<b><img src="./img/loding.png" alt=""></b>');
@@ -128,9 +129,9 @@ $(function () {
     }
 
 
-    $(".plyr").click(function(e){
+    $(".plyr").click(function (e) {
         var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
-        
+
         var name_sha = $.cookie('name') ? sha1($.cookie('name')) : '';
         var video_url = e.currentTarget.dataset.id;
 
@@ -138,8 +139,8 @@ $(function () {
         //     return
         // }
 
-        if(name_sha == pass) {
-            var tempwindow=window.open('_blank')
+        if (name_sha == pass) {
+            var tempwindow = window.open('_blank')
             tempwindow.location = video_url
         } else {
             $('#myModal').modal('show');
@@ -163,7 +164,7 @@ $(function () {
 
             $('.modal-content').html(videoFrame);
 
-            $("#submit").click(function(e){
+            $("#submit").click(function (e) {
                 var val = $("*[id='pwd']").val();
                 var val_sha = sha1(val);
                 if (val_sha === pass) {
@@ -171,21 +172,21 @@ $(function () {
 
                     $('#myModal').modal('hide');
 
-                    var tempwindow=window.open('_blank')
+                    var tempwindow = window.open('_blank')
                     tempwindow.location = video_url
                 } else {
                     alert("password wrong!")
                 }
-                
+
             });
 
-            $("#cancel").click(function(e){
-                $('#myModal').modal('hide');        
+            $("#cancel").click(function (e) {
+                $('#myModal').modal('hide');
             });
         }
 
-      })
+    })
 
-      
+
 
 })

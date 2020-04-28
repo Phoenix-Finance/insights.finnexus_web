@@ -15,7 +15,10 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/amazeui.min.js"></script>
+    <script src="./js/EZView.js"></script>
+    <script src="./js/draggable.js"></script>
     <script type="text/javascript" src="./js/raphael-min.js"></script>
+    <script type="text/javascript" src="./js/icto.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
 </head>
 
@@ -42,97 +45,28 @@
 
                 <div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
                     <div class="am-modal-dialog">
-                        <div class="am-modal-hd">Basic Rules</div>
-                        <div class="am-modal-bd">
-                            Hello world！
-                        </div>
-                        <div class="am-modal-footer">
-                            <span class="am-modal-btn">OK</span>
-                        </div>
+                        <div class="am-modal-bd icto_modal"><iframe src="./pdf/ICTO_en.pdf" id="ifr1" name="ifr1"
+                                width="100%" height="800" scrolling="yes">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe></div>
+                        <div class="am-modal-footer"><span class="am-modal-btn">OK</span></div>
                     </div>
                 </div>
 
                 <div class="am-g" style="margin-bottom: 30px;">
                     <div class="am_g_h1">
                         <h1>Basic Rules</h1> <button type="button" class="am-btn"
-                            style="background-color: #9F66AA; color: #ffffff; padding: 10px;" d
-                            data-am-modal="{target: '#my-alert'}">More
-                            details</button>
+                            style="background-color: #9F66AA; color: #ffffff; padding: 10px;"
+                            data-am-modal="{target: '#my-alert'}">More details</button>
                     </div>
-                    <div class="am-u-sm-6" style="background: #F1F1F3;">
-                        <div class="am-g am_g_div">
-                            <div class="am-u-sm-6">Convertible FNX Cap: </div>
-                            <div class="am-u-sm-6 am_g_div2">80,000,000</div>
-                        </div>
-                        <div class="am-g am_g_div">
-                            <div class="am-u-sm-6">Converts to: </div>
-                            <div class="am-u-sm-6 am_g_div2">UM1S</div>
-                        </div>
-                        <div class="am-g am_g_div">
-                            <div class="am-u-sm-6">UM1S Description: </div>
-                            <div class="am-u-sm-6 am_g_div2">Asset-backed Token with around 10% annualized
-                                interest rate</div>
-                        </div>
-                        <div class="am-g " style="font-size: 20px;padding-top: 20px; padding-bottom: 20px;">
-                            <div class="am-u-sm-6">FNX Conversion Process: </div>
-                            <div class="am-u-sm-6 am_g_div2">Burnt through smart which decreases total supply
-                                of FNX</div>
-                        </div>
-                    </div>
+                    <div class="am-u-sm-6" style="background: #F1F1F3;" id="rules"></div>
                     <div class="am-u-sm-6" style="font-size: 20px;">
-                        <div class="am-u-sm-6">
-                            <ul class="am-list am-list-static am-list-border">
-                                <li style="display: block; padding: 30px; background: #22409A;color: #fff;">FNX offering
-                                    price: <span>0.1 USD per
-                                        FNX</span></li>
-                            </ul>
-                            <ul class="am-list am-list-static am-list-border" style="border: 2px solid #22409A;">
-                                <li style="display: block; padding: 30px;">UM1S face price: <span>1 USD per UM1S</span>
-                                </li>
-                            </ul>
-                            <ul class="am-list am-list-static am-list-border">
-                                <li style="display: block; padding: 30px;">Convertibile period: <span>90 days after
-                                        listing</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="am-u-sm-6">
-                            <ul class="am-list am-list-static am-list-border">
-                                <li style="display: block; padding: 30px; background: #6E2C90;color: #fff;">Conversion
-                                    rate:<span>10 FNX to 1 UM1S</span>
-                                </li>
-                            </ul>
-                            <ul class="am-list am-list-static am-list-border" style="border: 2px solid #6E2C90;">
-                                <li style="display: block; padding: 30px;">Conversion cap: <span>80% of FNX sold</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <div class="am-u-sm-6" id="list1"></div>
+                        <div class="am-u-sm-6" id="list2"></div>
                     </div>
                 </div>
 
-                <div class="am-modal am-modal-alert" tabindex="-1" id="bitrue">
-                    <div class="am-modal-dialog">
-                        <div class="am-modal-hd">bitrue</div>
-                        <div class="am-modal-bd">
-                            Hello world！
-                        </div>
-                        <div class="am-modal-footer">
-                            <span class="am-modal-btn">OK</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="am-modal am-modal-alert" tabindex="-1" id="wan">
-                    <div class="am-modal-dialog">
-                        <div class="am-modal-hd">WAN</div>
-                        <div class="am-modal-bd">
-                            Hello world！
-                        </div>
-                        <div class="am-modal-footer">
-                            <span class="am-modal-btn">OK</span>
-                        </div>
-                    </div>
-                </div>
+                <h1 style="display: inline-block;font-size: 3em;margin-top: 0;">Ways to buy Convertible FNX</h1>
 
                 <div class="am-g" style="margin-bottom: 30px;">
                     <div class="am-u-sm-6">
@@ -141,9 +75,9 @@
                             <div class="container">
                                 <h4 style="font-size: 20px;"><b>Currency : USDT XRP BTR BTC</b></h4>
                                 <p>Discount : 2% for VIP</p>
-                                <button type="button" class="am-btn" data-am-modal="{target: '#bitrue'}"
+                                <a type="button" href="https://www.baidu.com" target="_blank" class="am-btn"
                                     style="background-color: #9F66AA; color: #ffffff; padding: 10px;">More
-                                    details</button>
+                                    details</a>
                             </div>
                         </div>
                     </div>
@@ -154,97 +88,34 @@
                             <div class="container">
                                 <h4 style="font-size: 20px;"><b>Currency : WAN</b></h4>
                                 <p>Discount : 2%</p>
-                                <button type="button" class="am-btn" data-am-modal="{target: '#wan'}"
-                                    style="background-color: #9F66AA; color: #ffffff; padding: 10px;">More
-                                    details</button>
+                                <button type="button" class="am-btn" id="doc-single-toggle"
+                                    style="background-color: #9F66AA; color: #ffffff; padding: 10px;"
+                                    data-am-popover="{theme:'primary',content: '<b>Open Wanchain Wallet → Choose your WAN account → Send Transaction to the smart contract address below</b><br/>Address: 0x0000000000000000000000000000000000'}">
+                                    More details</button>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-                <ul class="am-list am-list-static am-list-border">
-                    <strong>Notes:</strong>
-                    <li><i class="am-icon-star am-icon-fw"></i><span>The prices of FNX, USDT XRP BTR, and BTC will be
-                            automatically calculated based on the exchange rate of USD and the above currencies. The
-                            prices
-                            of FNX and WAN will be calculated through an oracle contract. It will be renewed every 24
-                            hours
-                            and calculated based on the 24-hour average price from Binance.<br /></span>
-                        <i class="am-icon-star am-icon-fw"></i><span>The prices of FNX, USDT XRP BTR, and BTC will be
-                            automatically calculated based on the exchange rate of USD and the above currencies. The
-                            prices
-                            of FNX and WAN will be calculated through an oracle contract. It will be renewed every 24
-                            hours
-                            and calculated based on the 24-hour average price from Binance.<br /></span>
-                        <i class="am-icon-star am-icon-fw"></i><span>The prices of FNX, USDT XRP BTR, and BTC will be
-                            automatically calculated based on the exchange rate of USD and the above currencies. The
-                            prices
-                            of FNX and WAN will be calculated through an oracle contract. It will be renewed every 24
-                            hours
-                            and calculated based on the 24-hour average price from Binance.</span>
-                    </li>
+                <ul class="am-list am-list-static am-list-border" id="notes">
+                    <strong></strong>
                 </ul>
 
                 <div class="am-g">
-                    <div class="am-u-sm-6">
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">FNX in exchange account</li>
-                        </ul>
-                        <i class="am-icon-arrow-down am-icon-lg div1-i"></i>
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">FNX in Wanchain Wallet</li>
-                        </ul>
-                        <i class="am-icon-arrow-down am-icon-lg div1-i"></i>
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">Transfer FNX to the address below</li>
-                        </ul>
-                        <i class="am-icon-arrow-down am-icon-lg div1-i"></i>
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">Receive your UM1S in the same address</li>
-                        </ul>
-                    </div>
+                    <div class="am-u-sm-6" id="exchange"></div>
+
                     <div class="am-u-sm-6">
                         <table>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">UM1S 30%</th>
-                                    <td>30%</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">FNX</th>
-                                    <td>70%</td>
-                                </tr>
-                            </tbody>
+                            <tbody id="tbody"></tbody>
                         </table>
 
                         <div id="holder" style="text-align: center;"></div>
                     </div>
                 </div>
 
-                <div class="am-g" style=" padding-bottom: 20px;">
-                    <h1 style="padding-left: 20px;">How to Redeem from UM1S</h1>
-                    <div class="am-u-sm-3">
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">Open Wanchain wallet&ensp;&ensp;&ensp;</li>
-                        </ul>
-                    </div>
-                    <div class="am-u-sm-1">
-                        <i class="am-icon-arrow-right am-icon-lg div1-i" style="top: 20px;position: relative;"></i>
-                    </div>
-                    <div class="am-u-sm-3">
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">Deposit UM1S to exchange</li>
-                        </ul>
-                    </div>
-                    <div class="am-u-sm-1">
-                        <i class="am-icon-arrow-right am-icon-lg div1-i" style="top: 20px;position: relative;"></i>
-                    </div>
-                    <div class="am-u-sm-4">
-                        <ul class="am-list am-list-static am-list-border" style="margin: 0;">
-                            <li class="div1">Based on amount of UM1S to get USDT(Principal+Interest)</li>
-                        </ul>
-                    </div>
+                <div class="am-g" style=" padding-bottom: 20px; padding-top: 30px;" id="icto_last">
+                    <h1 style="font-size: 3em;margin-top: 0;"></h1>
                 </div>
             </div>
         </div>
@@ -286,18 +157,6 @@
     setInterval(function () {
         div.innerHTML = showtime();
     }, 1000); //反复执行函数本身
-    // $(function () {
-    //     $('#my-scrollspy').scrollspy({
-    //         animation: 'scale-up',
-    //         delay: 500
-    //     })
-    // });
-    // $(function () {
-    //     $('#my-scrollspy2').scrollspy({
-    //         animation: 'scale-up',
-    //         delay: 500
-    //     })
-    // });
 </script>
 
 </html>

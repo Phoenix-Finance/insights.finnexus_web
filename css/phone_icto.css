@@ -1,3 +1,7 @@
+.am-active {
+    left: 0 !important;
+}
+
 .am_img {
     background-size: cover;
     background-position: 50% 50%;

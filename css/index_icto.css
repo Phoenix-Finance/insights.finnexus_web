@@ -1,0 +1,339 @@
+.am_img {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.am_div {
+    color: #fff;
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    width: 38%;
+}
+
+.am_div2 {
+    background: #A2DADB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.am_div2 h1 {
+    font-size: 4em;
+    font-weight: 900;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.am_ul {
+    font-size: 4em;
+    font-weight: 600;
+    background: #6E2C90;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.am_ul li {
+    background: rgba(0, 0, 0, 0) !important;
+    border: #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.am_ul li p {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.am_content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 60px;
+}
+
+.am_g_h1 h1 {
+    display: inline-block;
+    font-size: 3em;
+}
+
+.am_g_h1 button {
+    background-color: #9F66AA;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.am_g_div {
+    padding-top: 20px;
+    border-bottom: 2px solid #C3C3C3;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.am_g_div2 {
+    color: #6E2C90;
+    font-weight: 900;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    top: -30px;
+}
+
+.card .container {
+    padding: 2px 16px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.div1 {
+    display: block;
+    text-align: center;
+    padding: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.div1-i {
+    color: #A2DADB;
+    text-align: center;
+    display: block;
+}
+
+.footer {
+    height: 100px;
+    background-color: #251d47;
+    border-bottom: 30px solid #151029;
+}
+
+.footer .wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.footer .wrapper .left {
+    display: block;
+    -webkit-flex: 1;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.footer .wrapper .left li {
+    display: inline-block;
+    margin-top: 26px;
+    margin-right: 20px;
+}
+
+.footer .wrapper .left li>a {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #393558;
+    width: 36px;
+    text-decoration: none;
+    height: 36px;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.footer .wrapper .right.subscribe {
+    padding-top: 26px;
+    margin-right: 20px;
+}
+
+.footer .wrapper .right.subscribe input {
+    width: 400px;
+    height: 40px;
+    text-indent: 20px;
+    margin-right: 10px;
+    background-color: #39315b;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    opacity: 0;
+}
+
+
+.footer .wrapper .right.subscribe button {
+    width: 124px;
+    height: 40px;
+    background: linear-gradient(90deg, #6c63ff, #5434c8);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer .wrapper .left li .wechat-wrap {
+    position: relative;
+}
+
+.footer .wrapper .left li>a i {
+    font-size: 24px;
+}
+
+.icon-weixin:before {
+    content: "\e66a";
+}
+
+.footer .wrapper .left li .wechat-pop:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    margin-left: -8px;
+}
+
+.footer .wrapper .left li .wechat-pop {
+    display: none;
+    width: 120px;
+    height: 120px;
+    background: #fff url('../img/wx-ewm.jpeg') no-repeat;
+    background-size: 120px 120px;
+    position: absolute;
+    top: -130px;
+    left: -42px;
+    box-shadow: 0 0 16px rgba(37, 29, 71, .5);
+}
+
+.footer .wrapper .left li .wechat-wrap:hover .wechat-pop {
+    display: block;
+}
+
+
+.personal-video-centext {
+    overflow: hidden;
+    /* display: flex;
+    display: -webkit-flex; */
+    width: 100%;
+    border-bottom: #2a2843 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.personal-video-centext dl {
+    width: 30%;
+    float: left;
+    margin-right: 4%;
+}
+
+.personal-video-centext dl dt {
+    float: left;
+    padding-left: 10%;
+}
+
+.personal-video-centext dl dt img {
+    display: inline-block;
+    width: 100px;
+}
+
+.personal-video-centext dl dd {
+    float: left;
+    padding-left: 20px;
+    text-align: -webkit-left;
+    text-align: left;
+}
+
+.personal-video-centext dl dd h3 {
+    color: #1A90FC;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0 10px 0;
+    cursor: pointer;
+}
+
+.personal-video-centext dl dd img {
+    display: block;
+    width: 15px;
+    margin: 5px 0;
+}
+
+.personal-video-centext dl dd p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.personal-video-centext dl dd span {
+    display: inline-block;
+    font-size: 14px;
+    color: #86868e;
+    margin-top: 7px;
+    width: 195px;
+    font-style: italic;
+}
+
+#myModal {
+    margin-top: 200px;
+}
+
+#submit {
+    float: right;
+    margin-right: 50px;
+}
+
+.tip {
+    color: black;
+    font-size: 12px;
+    display: block;
+    margin-top: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#cancel {
+    float: left;
+    margin-left: 50px;
+}
+
+.video_frame {
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
+}
+
+.video_frame2 {
+    width: 60%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}

@@ -40,10 +40,24 @@
         <div>
             <div class="am_content">
 
+                <div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+                    <div class="am-modal-dialog">
+                        <div class="am-modal-hd">Basic Rules</div>
+                        <div class="am-modal-bd">
+                            Hello world！
+                        </div>
+                        <div class="am-modal-footer">
+                            <span class="am-modal-btn">OK</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="am-g" style="margin-bottom: 30px;">
                     <div class="am_g_h1">
                         <h1>Basic Rules</h1> <button type="button" class="am-btn"
-                            style="background-color: #9F66AA; color: #ffffff; padding: 10px;">More details</button>
+                            style="background-color: #9F66AA; color: #ffffff; padding: 10px;" d
+                            data-am-modal="{target: '#my-alert'}">More
+                            details</button>
                     </div>
                     <div class="am-u-sm-6" style="background: #F1F1F3;">
                         <div class="am-g am_g_div">
@@ -96,6 +110,30 @@
                     </div>
                 </div>
 
+                <div class="am-modal am-modal-alert" tabindex="-1" id="bitrue">
+                    <div class="am-modal-dialog">
+                        <div class="am-modal-hd">bitrue</div>
+                        <div class="am-modal-bd">
+                            Hello world！
+                        </div>
+                        <div class="am-modal-footer">
+                            <span class="am-modal-btn">OK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="am-modal am-modal-alert" tabindex="-1" id="wan">
+                    <div class="am-modal-dialog">
+                        <div class="am-modal-hd">WAN</div>
+                        <div class="am-modal-bd">
+                            Hello world！
+                        </div>
+                        <div class="am-modal-footer">
+                            <span class="am-modal-btn">OK</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="am-g" style="margin-bottom: 30px;">
                     <div class="am-u-sm-6">
                         <div class="card">
@@ -103,7 +141,7 @@
                             <div class="container">
                                 <h4 style="font-size: 20px;"><b>Currency : USDT XRP BTR BTC</b></h4>
                                 <p>Discount : 2% for VIP</p>
-                                <button type="button" class="am-btn"
+                                <button type="button" class="am-btn" data-am-modal="{target: '#bitrue'}"
                                     style="background-color: #9F66AA; color: #ffffff; padding: 10px;">More
                                     details</button>
                             </div>
@@ -116,7 +154,7 @@
                             <div class="container">
                                 <h4 style="font-size: 20px;"><b>Currency : WAN</b></h4>
                                 <p>Discount : 2%</p>
-                                <button type="button" class="am-btn"
+                                <button type="button" class="am-btn" data-am-modal="{target: '#wan'}"
                                     style="background-color: #9F66AA; color: #ffffff; padding: 10px;">More
                                     details</button>
                             </div>

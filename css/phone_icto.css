@@ -1,3 +1,7 @@
+.am-modal-dialog {
+    width: 98% !important;
+}
+
 .am-active {
     left: 0 !important;
 }

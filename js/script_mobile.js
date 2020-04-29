@@ -15,7 +15,7 @@ function browserRedirect2() {
 
 function showtime() {
     var nowtime = new Date(), //获取当前时间
-        endtime = new Date("2020/8/8"); //定义结束时间
+        endtime = new Date("2020/5/11 16:00:00"); //定义结束时间
     var lefttime = endtime.getTime() - nowtime.getTime(), //距离结束时间的毫秒数
         leftd = Math.floor(lefttime / (1000 * 60 * 60 * 24)), //计算天数
         lefth = Math.floor(lefttime / (1000 * 60 * 60) % 24), //计算小时数
@@ -135,26 +135,21 @@ $(function () {
 
     // 2.1
     var list1Html = [];
-    var list = icto.am_list.list1;
+    var list = icto.am_list.list;
 
     $.each(list, function (index, childreds) {
-        var ht = '<ul class="am-list am-list-static am-list-border" style="' + childreds.ul_style + '"><li style="' + childreds.li_style + '">' +
-            childreds.title + '<span>' + childreds.span_title + '</span></li></ul>'
-        list1Html.push(ht)
+        if (index < list.length - 1) {
+            var ht = '<div class="am-g am-g-fixed" style="padding: 20px 0;border-bottom: 1px solid #C3C3C3;"><div class="am-u-sm-6">' + childreds.title +
+                '</div><div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            list1Html.push(ht)
+        } else {
+            var ht = '<div class="am-g am-g-fixed" style="padding-top: 20px; padding-bottom: 20px;"><div class="am-u-sm-6">' + childreds.title +
+                '</div><div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            list1Html.push(ht)
+        }
     });
 
-    $('#list1').append(list1Html.join(''));
-
-    var list2Html = [];
-    var list = icto.am_list.list2;
-
-    $.each(list, function (index, childreds) {
-        var ht = '<ul class="am-list am-list-static am-list-border" style="' + childreds.ul_style + '"><li style="' + childreds.li_style + '">' +
-            childreds.title + '<span>' + childreds.span_title + '</span></li></ul>'
-        list2Html.push(ht)
-    });
-
-    $('#list2').append(list2Html.join(''));
+    $('#lists').append(list1Html.join(''));
 
     // 3
     var notesHtml = [];

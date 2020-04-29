@@ -1,4 +1,4 @@
-var a = 1.0
+var a = 30
 var b = 100 - a
 
 var icto = {
@@ -21,20 +21,28 @@ var icto = {
 
     rules: {
         list: [{
-                title: 'Convertible FNX Cap: ',
-                partner: '80,000,000',
+                title: 'Market Cap: ',
+                partner: '4,400,000 USD',
             },
             {
-                title: 'Converts to: ',
-                partner: 'UM1S',
+                title: 'Circulating Amount Cap:',
+                partner: '44,000,000 FNX',
             },
             {
-                title: 'UM1S Description: ',
-                partner: 'Asset-backed Token with around 10% annualized interest rate',
+                title: 'FNX offering price: ',
+                partner: '0.1 USD per FNX',
             },
             {
-                title: 'FNX Conversion Process:',
-                partner: 'Burnt through smart which decreases total supply of FNX',
+                title: 'UM1S face price:',
+                partner: '1 USD per UM1S',
+            },
+            {
+                "title": "Conversion rate: ",
+                "partner": "10 FNX to  1 UM1S"
+            },
+            {
+                "title": "Conversion cap: ",
+                "partner": "80% of  FNX sold"
             },
         ]
     },
@@ -57,7 +65,6 @@ var icto = {
 
     exchange: {
         list: [
-            "FNX in exchange account",
             "FNX in Wanchain Wallet",
             "Transfer FNX to the address below",
             "Receive your UM1S in the same address"
@@ -72,37 +79,23 @@ var icto = {
         ]
     },
     am_list: {
-        list1: [{
-                "title": "FNX offering price: ",
-                "ul_style": "",
-                "li_style": "display: block; padding: 30px; background: #22409A;color: #fff; text-align: center;",
-                "span_title": "0.1 USD per FNX"
+        list: [{
+                "title": "Convertibile period:  ",
+                "partner": "90 days after listing"
             },
             {
-                "title": "UM1S face price: ",
-                "ul_style": "border: 2px solid #22409A;",
-                "li_style": "display: block; padding: 30px;text-align: center;",
-                "span_title": "1 USD per UM1S"
+                "title": "Converts to:",
+                "partner": "UM1S",
             },
             {
-                "title": "Convertibile period: ",
-                "ul_style": "",
-                "li_style": "display: block; padding: 30px;text-align: center;",
-                "span_title": "90 days after listing"
-            }
+                "title": "UM1S Description:",
+                "partner": "Asset-backed Token with around 10%  annualized interest rate"
+            },
+            {
+                "title": "FNX Conversion Process:",
+                "partner": "Burnt through smart which decreases total supply of FNX"
+            },
+
         ],
-        list2: [{
-                "title": "Conversion rate:",
-                "ul_style": "",
-                "li_style": "display: block; padding: 30px; background: #6E2C90;color: #fff;text-align: center;",
-                "span_title": "10 FNX to 1 UM1S"
-            },
-            {
-                "title": "Conversion cap: ",
-                "ul_style": "border: 2px solid #6E2C90;",
-                "li_style": "display: block; padding: 30px;text-align: center;",
-                "span_title": "80% of FNX sold"
-            },
-        ]
     }
 }

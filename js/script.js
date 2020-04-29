@@ -195,15 +195,7 @@ $(function () {
     $('#exchange').append(exchangeHtml.join(''));
 
     // 5
-    var data_list = [{
-            "title": 'UM1S 30%',
-            'par': '30%'
-        },
-        {
-            "title": 'FNX',
-            'par': '70%'
-        },
-    ]
+    var data_list = icto.rate.list;
 
     var tbodayHtml = [];
     $.each(data_list, function (index, childreds) {

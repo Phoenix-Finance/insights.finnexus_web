@@ -1,27 +1,22 @@
+var a = 1.0
+var b = 100 - a
+
 var icto = {
 
+    rate: {
+        list: [{
+                "title": 'UM1S ' + a + '%',
+                'par': a + '%'
+            },
+            {
+                "title": 'FNX',
+                'par': b + '%'
+            },
+        ]
+    },
+
     modal: {
-        content: "One of the goals of FinNexus is to provide the blockchain world with more assets with real value, " +
-            "and we will follow this principle in the economic design and " +
-            "distribution model of our own tokens.We intend to introduce a new token issuance model referred to as Initial Convertible Token Offering, " +
-            "or ICTO. " +
-            "Two different tokens under our model: FNX– FinNexus Token " +
-            "UM1S– UangMe asset backed token " +
-            "The significance of each token: FNX: The token grants the token holder the right to convert the FNX to a fixed short - term " +
-            "return asset in the form of the UM1S, " +
-            "otherwise the token " +
-            "will lose its right of conversion at the end of the period and remain as FNX permanently.After expiration of the conversion period," +
-            "the FNX token " +
-            "will " +
-            "function as the utility token" +
-            "for the FinNexus protocol suite.(The conversion period will be announced prior to the ICTO on FinNexus.io) " +
-            "UM1S: The token will have an annualized " +
-            "return ofover 10 % paid in USDT.UM1S’ s returns are based on a reliable, profitable and real - world " +
-            "asset.FinNexus will disclose the UM1S Offering Circular, " +
-            "enabling potential holders to evaluate the risks and returns." +
-            "Token durations: FNX: The holders of FNX have the right to convert into UM1S within the conversion period.If the holders make the conversion," +
-            "the corresponding FNX will be burned.At the end of the conversion period FNX will lose the right of conversion to UM1S and will remain as FNX " +
-            "permanently. UM1S: Duration is from the time of conversion from FNX to UM1S until the end of the conversion period. "
+        content: ""
     },
 
     rules: {

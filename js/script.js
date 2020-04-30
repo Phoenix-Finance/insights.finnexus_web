@@ -147,11 +147,17 @@ $(function () {
     var list = icto.am_list.list;
 
     $.each(list, function (index, childreds) {
-        if (index < list.length - 1) {
-            var ht = '<div class="am-g am_g_div" style="padding: 25px;"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+        if (index <= 2) {
+            var ht = '<div class="am-g am_g_div"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            list1Html.push(ht)
+        } else if (index === 3) {
+            var ht = '<div class="am-g am_g_div" style= "border-bottom: 0;"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            list1Html.push(ht)
+        } else if (index === 4) {
+            var ht = '<div class="am-g am_g_div" style= "border: 0;"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
             list1Html.push(ht)
         } else {
-            var ht = '<div class="am-g" style="font-size: 20px;padding-top: 20px; padding-bottom: 20px;"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
+            var ht = '<div class="am-g" style="padding: 1rem;"><div class="am-u-sm-6">' + childreds.title + '</div>' + '<div class="am-u-sm-6 am_g_div2">' + childreds.partner + '</div></div>'
             list1Html.push(ht)
         }
     });

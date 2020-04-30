@@ -95,6 +95,14 @@ var icto = {
                 "title": "FNX Conversion Process:",
                 "partner": "Burnt through smart which decreases total supply of FNX"
             },
+            {
+                "title": "",
+                "partner": ""
+            },
+            {
+                "title": "",
+                "partner": ""
+            },
 
         ],
     }

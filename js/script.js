@@ -82,7 +82,6 @@ Raphael.fn.pieChart = function (cx, cy, r, values, labels, stroke) {
                     // fill: "90-" + bcolor + "-" + color,
                     fill: col,
                     stroke: stroke,
-                    "stroke-width": 3,
                     transform: ""
                 })
             };
@@ -222,10 +221,11 @@ $(function () {
     // last
     var values = [],
         labels = [];
-    $("tr").each(function () {
+    $("#tbody tr").each(function () {
         values.push(parseInt($("td", this).text(), 10));
         labels.push($("th", this).text());
     });
-    $("table").hide();
+    $("#rates").hide();
     Raphael("holder", 400, 400).pieChart(200, 200, 150, values, labels, "#fff");
+
 });

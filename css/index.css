@@ -139,6 +139,16 @@ table {
     color: #fff;
 }
 
+ .banner-p{
+    text-align: center;
+    padding: 10px;
+ }
+
+ .banner-p a {
+     font-size: 24px;
+     text-decoration: underline;
+ }
+
 .logo img {
     width: 300px;
     margin-top: 30px;
@@ -230,6 +240,9 @@ table {
     bottom: 0;
 }
 
+.btn-group button:last-child span {
+    top: 10px;
+}
 
 
 .btn-group button:first-child:hover b {

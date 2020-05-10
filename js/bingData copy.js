@@ -8,6 +8,9 @@ $(function () {
     $('.btn-group p:last').text(data.banner.audience);
 
 
+
+
+
     $('#personal p:first span').text(data.personal.title);
     $('#personal p:last').text(data.personal.Subheading);
 
@@ -19,7 +22,7 @@ $(function () {
     }
 
     $.each(ab_list, function (index, childreds) {
-        // console.log(childreds)
+        console.log(childreds)
         personalHtml.push('<div class="personal-profile-centext">')
         childreds.forEach(function (item, k) {
             var sty = item.url ? 'style="cursor: pointer;" data-id=' + item.url : '';
@@ -117,10 +120,71 @@ $(function () {
     }
 
 
+    var btnElement2 = document.getElementsByTagName('button')[1]; //第一个button元素
+    btnElement2.addEventListener('click', b2);
+
+    function b2() {
+        var h2 = "https://mailchi.mp/e135a0f4e0d6/insights_summit";
+        window.open(h2, '_blank');
+    }
+
+
     $(".plyr").click(function (e) {
+        var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
+
+        var name_sha = $.cookie('name') ? sha1($.cookie('name')) : '';
         var video_url = e.currentTarget.dataset.id;
-        var tempwindow = window.open('_blank')
-        tempwindow.location = video_url
+
+        // if (!video_url) {
+        //     return
+        // }
+
+        if (name_sha == pass) {
+            var tempwindow = window.open('_blank')
+            tempwindow.location = video_url
+        } else {
+            $('#myModal').modal('show');
+
+            var videoFrame = `
+            <div class="form-group">
+                    <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+
+            <span class="tip">Enter the password you were emailed from the FinNexus team to get access to all the Insights summit presentations. 
+            If you have not yet received your password, sign up for the FinNexus newsletter 
+            <a href="https://mailchi.mp/e135a0f4e0d6/insights_summit" target="_blank">here</a> to receive your password.
+            </span>
+            
+            <button id="cancel" type="submit" class="btn btn-warning">Cancel</button>
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+            
+            `
+
+            $('.modal-content').html(videoFrame);
+
+            $("#submit").click(function (e) {
+                var val = $("*[id='pwd']").val();
+                var val_sha = sha1(val);
+                if (val_sha === pass) {
+                    $.cookie('name', val);
+
+                    $('#myModal').modal('hide');
+
+                    var tempwindow = window.open('_blank')
+                    tempwindow.location = video_url
+                } else {
+                    alert("password wrong!")
+                }
+
+            });
+
+            $("#cancel").click(function (e) {
+                $('#myModal').modal('hide');
+            });
+        }
+
     })
 
 

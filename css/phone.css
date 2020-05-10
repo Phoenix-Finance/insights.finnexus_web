@@ -147,6 +147,16 @@ html {
     color: #fff;
 }
 
+.banner-p{
+    text-align: center;
+    padding: 10px;
+ }
+
+ .banner-p a {
+     font-size: 24px;
+     text-decoration: underline;
+ }
+
 .logo {
     overflow: hidden;
 }

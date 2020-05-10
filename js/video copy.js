@@ -1,5 +1,12 @@
 $(function () {
 
+    var name_sha = $.cookie('name') ? sha1($.cookie('name')) : '';
+    var pass = 'a0440790f293dab54f79324f66f1ed6ca08ae6e1';
+    if (!name_sha || name_sha != pass) {
+        location.href = '/'
+        return
+    }
+
     var getPram = function GetQueryString(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
         var r = window.location.search.substr(1).match(reg);
@@ -37,7 +44,7 @@ $(function () {
         '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
        $('.modal-content').html(videoFrame);
-    }
+    }    
 
 })
 
